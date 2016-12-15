@@ -1,0 +1,24 @@
+2016-12-14 10:13:38,244 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Server shutdown has been requested.
+2016-12-14 10:13:38,355 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 90) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'my-target-be-model-1.0-SNAPSHOT.jar#myTarget-db'
+2016-12-14 10:13:38,366 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 97) WFLYUT0022: Unregistered web context: /my-target-be-web
+2016-12-14 10:13:38,365 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 93) WFLYUT0022: Unregistered web context: /my-target-be/
+2016-12-14 10:13:38,383 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 99) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'my-target-be-model-1.0-SNAPSHOT.jar#myTarget-db'
+2016-12-14 10:13:38,396 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 92) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'my-target-be-ear-1.0-SNAPSHOT.ear#myTarget-db'
+2016-12-14 10:13:38,398 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2016-12-14 10:13:38,395 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0019: Host default-host stopping
+2016-12-14 10:13:38,406 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 92) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'my-target-be-ear-1.0-SNAPSHOT.ear#myTarget-db'
+2016-12-14 10:13:38,407 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment my-target-be-ejb-1.0-SNAPSHOT.jar (runtime-name: my-target-be-ejb-1.0-SNAPSHOT.jar) in 95ms
+2016-12-14 10:13:38,407 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment my-target-be-api-1.0-SNAPSHOT.jar (runtime-name: my-target-be-api-1.0-SNAPSHOT.jar) in 53ms
+2016-12-14 10:13:38,408 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0010: Unbound data source [java:jboss/MySqlDS]
+2016-12-14 10:13:38,408 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2016-12-14 10:13:38,410 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment my-target-be-commons-1.0-SNAPSHOT.jar (runtime-name: my-target-be-commons-1.0-SNAPSHOT.jar) in 53ms
+2016-12-14 10:13:38,410 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment my-target-be-model-1.0-SNAPSHOT.jar (runtime-name: my-target-be-model-1.0-SNAPSHOT.jar) in 56ms
+2016-12-14 10:13:38,411 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0019: Stopped Driver service with driver-name = mysql
+2016-12-14 10:13:38,414 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment my-target-be-web.war (runtime-name: my-target-be-web.war) in 59ms
+2016-12-14 10:13:38,417 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0208: Stopped subdeployment (runtime-name: my-target-be-ejb-1.0-SNAPSHOT.jar) in 57ms
+2016-12-14 10:13:38,418 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0008: Undertow HTTP listener default suspending
+2016-12-14 10:13:38,419 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2016-12-14 10:13:38,419 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0208: Stopped subdeployment (runtime-name: my-target-be-web-1.0-SNAPSHOT.war) in 61ms
+2016-12-14 10:13:38,420 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0004: Undertow 1.3.21.Final-redhat-1 stopping
+2016-12-14 10:13:38,424 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment my-target-be-ear-1.0-SNAPSHOT.ear (runtime-name: my-target-be-ear-1.0-SNAPSHOT.ear) in 70ms
+2016-12-14 10:13:38,430 INFO  [org.jboss.as] (MSC service thread 1-5) WFLYSRV0050: JBoss EAP 7.0.0.GA (WildFly Core 2.1.2.Final-redhat-1) stopped in 70ms

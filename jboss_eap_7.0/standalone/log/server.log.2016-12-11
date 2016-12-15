@@ -1,0 +1,339 @@
+2016-12-11 20:26:50,084 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.1.Final-redhat-1
+2016-12-11 20:27:00,257 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final-redhat-1
+2016-12-11 20:27:00,320 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0049: JBoss EAP 7.0.0.GA (WildFly Core 2.1.2.Final-redhat-1) starting
+2016-12-11 20:27:00,321 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.lwawt.macosx.LWCToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	gopherProxySet = false
+	java.awt.graphicsenv = sun.awt.CGraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.lwawt.macosx.CPrinterJob
+	java.class.path = /Users/simon/jboss_eap_7.0/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/endorsed
+	java.ext.dirs = /Users/simon/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+	java.home = /Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre
+	java.io.tmpdir = /var/folders/92/1ym1681x7h95zjn1m5t7gw5m0000gn/T/
+	java.library.path = /Users/simon/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_102-b14
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_102
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.102-b14
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = /Users/simon/jboss_eap_7.0
+	jboss.host.name = macbook-pro-di-simon
+	jboss.modules.dir = /Users/simon/jboss_eap_7.0/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = macbook-pro-di-simon
+	jboss.qualified.host.name = macbook-pro-di-simon.local
+	jboss.server.base.dir = /Users/simon/jboss_eap_7.0/standalone
+	jboss.server.config.dir = /Users/simon/jboss_eap_7.0/standalone/configuration
+	jboss.server.data.dir = /Users/simon/jboss_eap_7.0/standalone/data
+	jboss.server.deploy.dir = /Users/simon/jboss_eap_7.0/standalone/data/content
+	jboss.server.log.dir = /Users/simon/jboss_eap_7.0/standalone/log
+	jboss.server.name = macbook-pro-di-simon
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /Users/simon/jboss_eap_7.0/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/Users/simon/jboss_eap_7.0/standalone/configuration/logging.properties
+	module.path = /Users/simon/jboss_eap_7.0/modules
+	org.jboss.boot.log.file = /Users/simon/jboss_eap_7.0/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = x86_64
+	os.name = Mac OS X
+	os.version = 10.12.1
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/classes
+	sun.boot.library.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeBig
+	sun.java.command = /Users/simon/jboss_eap_7.0/jboss-modules.jar -mp /Users/simon/jboss_eap_7.0/modules org.jboss.as.standalone -Djboss.home.dir=/Users/simon/jboss_eap_7.0 -Djboss.server.base.dir=/Users/simon/jboss_eap_7.0/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = IT
+	user.dir = /Users/simon/jboss_eap_7.0/bin
+	user.home = /Users/simon
+	user.language = it
+	user.name = simon
+	user.timezone = Europe/Rome
+2016-12-11 20:27:00,322 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -D[Standalone] -verbose:gc -Xloggc:/Users/simon/jboss_eap_7.0/standalone/log/gc.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps -XX:+UseGCLogFileRotation -XX:NumberOfGCLogFiles=5 -XX:GCLogFileSize=3M -XX:-TraceClassUnloading -Xms1303m -Xmx1303m -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/Users/simon/jboss_eap_7.0/standalone/log/server.log -Dlogging.configuration=file:/Users/simon/jboss_eap_7.0/standalone/configuration/logging.properties 
+2016-12-11 20:27:01,161 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2016-12-11 20:27:01,178 INFO  [org.xnio] (MSC service thread 1-4) XNIO version 3.3.6.Final-redhat-1
+2016-12-11 20:27:01,183 INFO  [org.xnio.nio] (MSC service thread 1-4) XNIO NIO Implementation Version 3.3.6.Final-redhat-1
+2016-12-11 20:27:01,209 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2016-12-11 20:27:01,217 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2016-12-11 20:27:01,231 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2016-12-11 20:27:01,231 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2016-12-11 20:27:01,232 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2016-12-11 20:27:01,244 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 16 core threads with 128 task threads based on your 8 available processors
+2016-12-11 20:27:01,236 INFO  [org.jboss.as.security] (MSC service thread 1-5) WFLYSEC0001: Current PicketBox version=4.9.6.Final-redhat-1
+2016-12-11 20:27:01,249 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2016-12-11 20:27:01,277 INFO  [org.jboss.as.connector] (MSC service thread 1-8) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.3.Final-redhat-1)
+2016-12-11 20:27:01,289 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0003: Undertow 1.3.21.Final-redhat-1 starting
+2016-12-11 20:27:01,289 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0003: Undertow 1.3.21.Final-redhat-1 starting
+2016-12-11 20:27:01,327 INFO  [org.jboss.as.naming] (MSC service thread 1-8) WFLYNAM0003: Starting Naming Service
+2016-12-11 20:27:01,325 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2016-12-11 20:27:01,328 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-6) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2016-12-11 20:27:01,339 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = h2
+2016-12-11 20:27:01,345 INFO  [org.jboss.remoting] (MSC service thread 1-8) JBoss Remoting version 4.0.18.Final-redhat-1
+2016-12-11 20:27:01,359 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2016-12-11 20:27:01,364 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = mysql
+2016-12-11 20:27:01,447 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path '/Users/simon/jboss_eap_7.0/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2016-12-11 20:27:01,467 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0012: Started server default-server.
+2016-12-11 20:27:01,471 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0018: Host default-host starting
+2016-12-11 20:27:01,574 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2016-12-11 20:27:01,574 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2016-12-11 20:27:01,585 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2016-12-11 20:27:01,761 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-3) WFLYDS0013: Started FileSystemDeploymentService for directory /Users/simon/jboss_eap_7.0/standalone/deployments
+2016-12-11 20:27:01,885 INFO  [org.jboss.ws.common.management] (MSC service thread 1-5) JBWS022052: Starting JBossWS 5.1.3.SP1-redhat-1 (Apache CXF 3.1.4.redhat-1) 
+2016-12-11 20:27:01,898 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-1) ISPN000128: Infinispan version: Infinispan 'Mahou' 8.1.2.Final-redhat-1
+2016-12-11 20:27:11,623 INFO  [org.jboss.as.connector.subsystems.datasources.AbstractDataSourceService$AS7DataSourceDeployer] (MSC service thread 1-8) IJ020018: Enabling <validate-on-match> for java:jboss/MySqlDS
+2016-12-11 20:27:11,647 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2016-12-11 20:27:11,647 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/MySqlDS]
+2016-12-11 20:27:11,746 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2016-12-11 20:27:11,747 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2016-12-11 20:27:11,747 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: JBoss EAP 7.0.0.GA (WildFly Core 2.1.2.Final-redhat-1) started in 21921ms - Started 274 of 560 services (372 services are lazy, passive or on-demand)
+2016-12-11 20:27:53,133 INFO  [org.jboss.as.repository] (management-handler-thread - 4) WFLYDR0001: Content added at location /Users/simon/jboss_eap_7.0/standalone/data/content/16/58cdf99b31bf0ae7c8e34a869320e383f60297/content
+2016-12-11 20:27:53,155 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "my-target-be-commons-1.0-SNAPSHOT.jar" (runtime-name: "my-target-be-commons-1.0-SNAPSHOT.jar")
+2016-12-11 20:27:53,432 INFO  [org.jboss.as.server] (management-handler-thread - 4) WFLYSRV0010: Deployed "my-target-be-commons-1.0-SNAPSHOT.jar" (runtime-name : "my-target-be-commons-1.0-SNAPSHOT.jar")
+2016-12-11 20:27:53,575 INFO  [org.jboss.as.repository] (management-handler-thread - 4) WFLYDR0001: Content added at location /Users/simon/jboss_eap_7.0/standalone/data/content/00/e88f08fd24c39d2a1a45f2b183341e0b37311f/content
+2016-12-11 20:27:53,578 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "my-target-be-api-1.0-SNAPSHOT.jar" (runtime-name: "my-target-be-api-1.0-SNAPSHOT.jar")
+2016-12-11 20:27:53,611 INFO  [org.jboss.as.server] (management-handler-thread - 4) WFLYSRV0010: Deployed "my-target-be-api-1.0-SNAPSHOT.jar" (runtime-name : "my-target-be-api-1.0-SNAPSHOT.jar")
+2016-12-11 20:27:53,958 INFO  [org.jboss.as.repository] (management-handler-thread - 4) WFLYDR0001: Content added at location /Users/simon/jboss_eap_7.0/standalone/data/content/4f/90d24ab3c4243731a6b1bc80b1877dcc4e1213/content
+2016-12-11 20:27:53,964 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "my-target-be-web.war" (runtime-name: "my-target-be-web.war")
+2016-12-11 20:27:54,191 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 64) WFLYUT0021: Registered web context: /my-target-be-web
+2016-12-11 20:27:54,205 INFO  [org.jboss.as.server] (management-handler-thread - 4) WFLYSRV0010: Deployed "my-target-be-web.war" (runtime-name : "my-target-be-web.war")
+2016-12-11 20:27:54,727 INFO  [org.jboss.as.repository] (management-handler-thread - 4) WFLYDR0001: Content added at location /Users/simon/jboss_eap_7.0/standalone/data/content/61/6d9c2dd3bcbd10c8c7aff40f8145e1ad0987e9/content
+2016-12-11 20:27:54,729 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "my-target-be-model-1.0-SNAPSHOT.jar" (runtime-name: "my-target-be-model-1.0-SNAPSHOT.jar")
+2016-12-11 20:27:54,750 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) WFLYJPA0002: Read persistence.xml for myTarget-db
+2016-12-11 20:27:54,815 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 62) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'my-target-be-model-1.0-SNAPSHOT.jar#myTarget-db'
+2016-12-11 20:27:54,832 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 62) HHH000204: Processing PersistenceUnitInfo [
+	name: myTarget-db
+	...]
+2016-12-11 20:27:54,907 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 62) HHH000412: Hibernate Core {5.0.9.Final-redhat-1}
+2016-12-11 20:27:54,911 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 62) HHH000206: hibernate.properties not found
+2016-12-11 20:27:54,916 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 62) HHH000021: Bytecode provider name : javassist
+2016-12-11 20:27:54,955 INFO  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 62) HHH90000001: Found usage of deprecated setting for specifying Scanner [hibernate.ejb.resource_scanner]; use [hibernate.archive.scanner] instead
+2016-12-11 20:27:54,965 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 62) HCANN000001: Hibernate Commons Annotations {5.0.1.Final-redhat-2}
+2016-12-11 20:27:55,003 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 62) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'my-target-be-model-1.0-SNAPSHOT.jar#myTarget-db'
+2016-12-11 20:27:55,169 ERROR [stderr] (ServerService Thread Pool -- 62) Sun Dec 11 20:27:55 CET 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-12-11 20:27:55,310 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 62) HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-12-11 20:27:55,342 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 62) Envers integration enabled? : true
+2016-12-11 20:27:55,470 ERROR [org.jboss.msc.service.fail] (ServerService Thread Pool -- 62) MSC000001: Failed to start service jboss.persistenceunit."my-target-be-model-1.0-SNAPSHOT.jar#myTarget-db": org.jboss.msc.service.StartException in service jboss.persistenceunit."my-target-be-model-1.0-SNAPSHOT.jar#myTarget-db": org.hibernate.AnnotationException: Illegal attempt to map a non collection as a @OneToMany, @ManyToMany or @CollectionOfElements: entity.Structure.structureParent
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:172)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:117)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:667)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1.run(PersistenceUnitServiceImpl.java:182)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:320)
+Caused by: org.hibernate.AnnotationException: Illegal attempt to map a non collection as a @OneToMany, @ManyToMany or @CollectionOfElements: entity.Structure.structureParent
+	at org.hibernate.cfg.annotations.CollectionBinder.getCollectionBinder(CollectionBinder.java:322)
+	at org.hibernate.cfg.AnnotationBinder.processElementAnnotations(AnnotationBinder.java:1883)
+	at org.hibernate.cfg.AnnotationBinder.processIdPropertiesIfNotAlready(AnnotationBinder.java:904)
+	at org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:731)
+	at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.processEntityHierarchies(AnnotationMetadataSourceProcessorImpl.java:245)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess$1.processEntityHierarchies(MetadataBuildingProcess.java:222)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:265)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:847)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:874)
+	at org.jboss.as.jpa.hibernate5.TwoPhaseBootstrapImpl.build(TwoPhaseBootstrapImpl.java:44)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:154)
+	... 7 more
+
+2016-12-11 20:27:55,474 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 4) WFLYCTL0013: Operation ("add") failed - address: ([("deployment" => "my-target-be-model-1.0-SNAPSHOT.jar")]) - failure description: {"WFLYCTL0080: Failed services" => {"jboss.persistenceunit.\"my-target-be-model-1.0-SNAPSHOT.jar#myTarget-db\"" => "org.jboss.msc.service.StartException in service jboss.persistenceunit.\"my-target-be-model-1.0-SNAPSHOT.jar#myTarget-db\": org.hibernate.AnnotationException: Illegal attempt to map a non collection as a @OneToMany, @ManyToMany or @CollectionOfElements: entity.Structure.structureParent
+    Caused by: org.hibernate.AnnotationException: Illegal attempt to map a non collection as a @OneToMany, @ManyToMany or @CollectionOfElements: entity.Structure.structureParent"}}
+2016-12-11 20:27:55,476 ERROR [org.jboss.as.server] (management-handler-thread - 4) WFLYSRV0021: Deploy of deployment "my-target-be-model-1.0-SNAPSHOT.jar" was rolled back with the following failure message: 
+{"WFLYCTL0080: Failed services" => {"jboss.persistenceunit.\"my-target-be-model-1.0-SNAPSHOT.jar#myTarget-db\"" => "org.jboss.msc.service.StartException in service jboss.persistenceunit.\"my-target-be-model-1.0-SNAPSHOT.jar#myTarget-db\": org.hibernate.AnnotationException: Illegal attempt to map a non collection as a @OneToMany, @ManyToMany or @CollectionOfElements: entity.Structure.structureParent
+    Caused by: org.hibernate.AnnotationException: Illegal attempt to map a non collection as a @OneToMany, @ManyToMany or @CollectionOfElements: entity.Structure.structureParent"}}
+2016-12-11 20:27:55,479 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 62) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'my-target-be-model-1.0-SNAPSHOT.jar#myTarget-db'
+2016-12-11 20:27:55,495 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-4) HV000001: Hibernate Validator 5.2.4.Final-redhat-1
+2016-12-11 20:27:55,533 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment my-target-be-model-1.0-SNAPSHOT.jar (runtime-name: my-target-be-model-1.0-SNAPSHOT.jar) in 56ms
+2016-12-11 20:27:55,534 INFO  [org.jboss.as.controller] (management-handler-thread - 4) WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.persistenceunit."my-target-be-model-1.0-SNAPSHOT.jar#myTarget-db" (missing) dependents: [service jboss.deployment.unit."my-target-be-model-1.0-SNAPSHOT.jar".deploymentCompleteService] 
+WFLYCTL0186:   Services which failed to start:      service jboss.persistenceunit."my-target-be-model-1.0-SNAPSHOT.jar#myTarget-db"
+
+2016-12-11 20:28:46,998 INFO  [org.jboss.as.repository] (management-handler-thread - 4) WFLYDR0001: Content added at location /Users/simon/jboss_eap_7.0/standalone/data/content/02/263baa1b52c65f4780d78489aef24a3fe790b5/content
+2016-12-11 20:28:47,009 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment my-target-be-commons-1.0-SNAPSHOT.jar (runtime-name: my-target-be-commons-1.0-SNAPSHOT.jar) in 8ms
+2016-12-11 20:28:47,011 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "my-target-be-commons-1.0-SNAPSHOT.jar" (runtime-name: "my-target-be-commons-1.0-SNAPSHOT.jar")
+2016-12-11 20:28:47,032 INFO  [org.jboss.as.server] (management-handler-thread - 4) WFLYSRV0016: Replaced deployment "my-target-be-commons-1.0-SNAPSHOT.jar" with deployment "my-target-be-commons-1.0-SNAPSHOT.jar"
+2016-12-11 20:28:47,032 INFO  [org.jboss.as.controller] (management-handler-thread - 4) WFLYCTL0183: Service status report
+WFLYCTL0185:    Newly corrected services:
+      service jboss.persistenceunit."my-target-be-model-1.0-SNAPSHOT.jar#myTarget-db" (no longer required)
+
+2016-12-11 20:28:47,035 INFO  [org.jboss.as.repository] (management-handler-thread - 4) WFLYDR0002: Content removed from location /Users/simon/jboss_eap_7.0/standalone/data/content/16/58cdf99b31bf0ae7c8e34a869320e383f60297/content
+2016-12-11 20:28:47,151 INFO  [org.jboss.as.repository] (management-handler-thread - 4) WFLYDR0001: Content added at location /Users/simon/jboss_eap_7.0/standalone/data/content/95/691657c78f6cb939a8f78d297061e2fec33dbe/content
+2016-12-11 20:28:47,161 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment my-target-be-api-1.0-SNAPSHOT.jar (runtime-name: my-target-be-api-1.0-SNAPSHOT.jar) in 8ms
+2016-12-11 20:28:47,162 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "my-target-be-api-1.0-SNAPSHOT.jar" (runtime-name: "my-target-be-api-1.0-SNAPSHOT.jar")
+2016-12-11 20:28:47,186 INFO  [org.jboss.as.server] (management-handler-thread - 4) WFLYSRV0016: Replaced deployment "my-target-be-api-1.0-SNAPSHOT.jar" with deployment "my-target-be-api-1.0-SNAPSHOT.jar"
+2016-12-11 20:28:47,187 INFO  [org.jboss.as.repository] (management-handler-thread - 4) WFLYDR0002: Content removed from location /Users/simon/jboss_eap_7.0/standalone/data/content/00/e88f08fd24c39d2a1a45f2b183341e0b37311f/content
+2016-12-11 20:28:47,503 INFO  [org.jboss.as.repository] (management-handler-thread - 4) WFLYDR0001: Content added at location /Users/simon/jboss_eap_7.0/standalone/data/content/89/1834299464f94efe3b50b1ee020c5aa5e8306b/content
+2016-12-11 20:28:47,512 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 66) WFLYUT0022: Unregistered web context: /my-target-be-web
+2016-12-11 20:28:47,522 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment my-target-be-web.war (runtime-name: my-target-be-web.war) in 18ms
+2016-12-11 20:28:47,523 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "my-target-be-web.war" (runtime-name: "my-target-be-web.war")
+2016-12-11 20:28:47,564 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 66) WFLYUT0021: Registered web context: /my-target-be-web
+2016-12-11 20:28:47,571 INFO  [org.jboss.as.server] (management-handler-thread - 4) WFLYSRV0016: Replaced deployment "my-target-be-web.war" with deployment "my-target-be-web.war"
+2016-12-11 20:28:47,571 INFO  [org.jboss.as.repository] (management-handler-thread - 4) WFLYDR0002: Content removed from location /Users/simon/jboss_eap_7.0/standalone/data/content/4f/90d24ab3c4243731a6b1bc80b1877dcc4e1213/content
+2016-12-11 20:28:48,002 INFO  [org.jboss.as.repository] (management-handler-thread - 4) WFLYDR0001: Content added at location /Users/simon/jboss_eap_7.0/standalone/data/content/d2/ec9e6126723804dd3ba0996ed01e6cb12010cd/content
+2016-12-11 20:28:48,004 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "my-target-be-model-1.0-SNAPSHOT.jar" (runtime-name: "my-target-be-model-1.0-SNAPSHOT.jar")
+2016-12-11 20:28:48,011 INFO  [org.jboss.as.jpa] (MSC service thread 1-7) WFLYJPA0002: Read persistence.xml for myTarget-db
+2016-12-11 20:28:48,019 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 66) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'my-target-be-model-1.0-SNAPSHOT.jar#myTarget-db'
+2016-12-11 20:28:48,019 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 66) HHH000204: Processing PersistenceUnitInfo [
+	name: myTarget-db
+	...]
+2016-12-11 20:28:48,024 INFO  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 66) HHH90000001: Found usage of deprecated setting for specifying Scanner [hibernate.ejb.resource_scanner]; use [hibernate.archive.scanner] instead
+2016-12-11 20:28:48,030 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 66) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'my-target-be-model-1.0-SNAPSHOT.jar#myTarget-db'
+2016-12-11 20:28:48,036 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 66) HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-12-11 20:28:48,044 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 66) Envers integration enabled? : true
+2016-12-11 20:28:48,393 INFO  [org.hibernate.tool.hbm2ddl.SchemaValidator] (ServerService Thread Pool -- 66) HHH000229: Running schema validator
+2016-12-11 20:28:48,403 INFO  [org.hibernate.tool.schema.extract.internal.InformationExtractorJdbcDatabaseMetaDataImpl] (ServerService Thread Pool -- 66) HHH000262: Table not found: ANAG_PAYMENT-TYPE
+2016-12-11 20:28:48,403 INFO  [org.hibernate.tool.schema.extract.internal.InformationExtractorJdbcDatabaseMetaDataImpl] (ServerService Thread Pool -- 66) HHH000262: Table not found: ANAG_PAYMENT-TYPE
+2016-12-11 20:28:48,404 ERROR [org.jboss.msc.service.fail] (ServerService Thread Pool -- 66) MSC000001: Failed to start service jboss.persistenceunit."my-target-be-model-1.0-SNAPSHOT.jar#myTarget-db": org.jboss.msc.service.StartException in service jboss.persistenceunit."my-target-be-model-1.0-SNAPSHOT.jar#myTarget-db": javax.persistence.PersistenceException: [PersistenceUnit: myTarget-db] Unable to build Hibernate SessionFactory
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:172)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:117)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:667)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1.run(PersistenceUnitServiceImpl.java:182)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:320)
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: myTarget-db] Unable to build Hibernate SessionFactory
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.persistenceException(EntityManagerFactoryBuilderImpl.java:954)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:882)
+	at org.jboss.as.jpa.hibernate5.TwoPhaseBootstrapImpl.build(TwoPhaseBootstrapImpl.java:44)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:154)
+	... 7 more
+Caused by: org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [ANAG_PAYMENT-TYPE]
+	at org.hibernate.tool.schema.internal.SchemaValidatorImpl.validateTable(SchemaValidatorImpl.java:67)
+	at org.hibernate.tool.schema.internal.SchemaValidatorImpl.doValidation(SchemaValidatorImpl.java:50)
+	at org.hibernate.tool.hbm2ddl.SchemaValidator.validate(SchemaValidator.java:91)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:473)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:444)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:879)
+	... 9 more
+
+2016-12-11 20:28:48,407 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 4) WFLYCTL0013: Operation ("add") failed - address: ([("deployment" => "my-target-be-model-1.0-SNAPSHOT.jar")]) - failure description: {"WFLYCTL0080: Failed services" => {"jboss.persistenceunit.\"my-target-be-model-1.0-SNAPSHOT.jar#myTarget-db\"" => "org.jboss.msc.service.StartException in service jboss.persistenceunit.\"my-target-be-model-1.0-SNAPSHOT.jar#myTarget-db\": javax.persistence.PersistenceException: [PersistenceUnit: myTarget-db] Unable to build Hibernate SessionFactory
+    Caused by: javax.persistence.PersistenceException: [PersistenceUnit: myTarget-db] Unable to build Hibernate SessionFactory
+    Caused by: org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [ANAG_PAYMENT-TYPE]"}}
+2016-12-11 20:28:48,407 ERROR [org.jboss.as.server] (management-handler-thread - 4) WFLYSRV0021: Deploy of deployment "my-target-be-model-1.0-SNAPSHOT.jar" was rolled back with the following failure message: 
+{"WFLYCTL0080: Failed services" => {"jboss.persistenceunit.\"my-target-be-model-1.0-SNAPSHOT.jar#myTarget-db\"" => "org.jboss.msc.service.StartException in service jboss.persistenceunit.\"my-target-be-model-1.0-SNAPSHOT.jar#myTarget-db\": javax.persistence.PersistenceException: [PersistenceUnit: myTarget-db] Unable to build Hibernate SessionFactory
+    Caused by: javax.persistence.PersistenceException: [PersistenceUnit: myTarget-db] Unable to build Hibernate SessionFactory
+    Caused by: org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [ANAG_PAYMENT-TYPE]"}}
+2016-12-11 20:28:48,408 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 68) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'my-target-be-model-1.0-SNAPSHOT.jar#myTarget-db'
+2016-12-11 20:28:48,413 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment my-target-be-model-1.0-SNAPSHOT.jar (runtime-name: my-target-be-model-1.0-SNAPSHOT.jar) in 5ms
+2016-12-11 20:28:48,413 INFO  [org.jboss.as.controller] (management-handler-thread - 4) WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.persistenceunit."my-target-be-model-1.0-SNAPSHOT.jar#myTarget-db" (missing) dependents: [service jboss.deployment.unit."my-target-be-model-1.0-SNAPSHOT.jar".deploymentCompleteService] 
+WFLYCTL0186:   Services which failed to start:      service jboss.persistenceunit."my-target-be-model-1.0-SNAPSHOT.jar#myTarget-db"
+
+2016-12-11 20:29:13,114 INFO  [org.jboss.as.repository] (management-handler-thread - 4) WFLYDR0001: Content added at location /Users/simon/jboss_eap_7.0/standalone/data/content/ae/a0435a0a14545e744c29807cb9ef61f3e39436/content
+2016-12-11 20:29:13,121 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment my-target-be-commons-1.0-SNAPSHOT.jar (runtime-name: my-target-be-commons-1.0-SNAPSHOT.jar) in 5ms
+2016-12-11 20:29:13,122 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "my-target-be-commons-1.0-SNAPSHOT.jar" (runtime-name: "my-target-be-commons-1.0-SNAPSHOT.jar")
+2016-12-11 20:29:13,141 INFO  [org.jboss.as.server] (management-handler-thread - 4) WFLYSRV0016: Replaced deployment "my-target-be-commons-1.0-SNAPSHOT.jar" with deployment "my-target-be-commons-1.0-SNAPSHOT.jar"
+2016-12-11 20:29:13,142 INFO  [org.jboss.as.controller] (management-handler-thread - 4) WFLYCTL0183: Service status report
+WFLYCTL0185:    Newly corrected services:
+      service jboss.persistenceunit."my-target-be-model-1.0-SNAPSHOT.jar#myTarget-db" (no longer required)
+
+2016-12-11 20:29:13,142 INFO  [org.jboss.as.repository] (management-handler-thread - 4) WFLYDR0002: Content removed from location /Users/simon/jboss_eap_7.0/standalone/data/content/02/263baa1b52c65f4780d78489aef24a3fe790b5/content
+2016-12-11 20:29:13,286 INFO  [org.jboss.as.repository] (management-handler-thread - 4) WFLYDR0001: Content added at location /Users/simon/jboss_eap_7.0/standalone/data/content/56/c585b6ebe7e5473c74615a628fd9c29181f4ec/content
+2016-12-11 20:29:13,295 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment my-target-be-api-1.0-SNAPSHOT.jar (runtime-name: my-target-be-api-1.0-SNAPSHOT.jar) in 6ms
+2016-12-11 20:29:13,296 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "my-target-be-api-1.0-SNAPSHOT.jar" (runtime-name: "my-target-be-api-1.0-SNAPSHOT.jar")
+2016-12-11 20:29:13,316 INFO  [org.jboss.as.server] (management-handler-thread - 4) WFLYSRV0016: Replaced deployment "my-target-be-api-1.0-SNAPSHOT.jar" with deployment "my-target-be-api-1.0-SNAPSHOT.jar"
+2016-12-11 20:29:13,317 INFO  [org.jboss.as.repository] (management-handler-thread - 4) WFLYDR0002: Content removed from location /Users/simon/jboss_eap_7.0/standalone/data/content/95/691657c78f6cb939a8f78d297061e2fec33dbe/content
+2016-12-11 20:29:13,699 INFO  [org.jboss.as.repository] (management-handler-thread - 4) WFLYDR0001: Content added at location /Users/simon/jboss_eap_7.0/standalone/data/content/ee/8f5c4216fe76fb2843819bcbdb04d58306286e/content
+2016-12-11 20:29:13,703 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 69) WFLYUT0022: Unregistered web context: /my-target-be-web
+2016-12-11 20:29:13,713 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment my-target-be-web.war (runtime-name: my-target-be-web.war) in 11ms
+2016-12-11 20:29:13,716 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "my-target-be-web.war" (runtime-name: "my-target-be-web.war")
+2016-12-11 20:29:13,765 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 71) WFLYUT0021: Registered web context: /my-target-be-web
+2016-12-11 20:29:13,775 INFO  [org.jboss.as.server] (management-handler-thread - 4) WFLYSRV0016: Replaced deployment "my-target-be-web.war" with deployment "my-target-be-web.war"
+2016-12-11 20:29:13,775 INFO  [org.jboss.as.repository] (management-handler-thread - 4) WFLYDR0002: Content removed from location /Users/simon/jboss_eap_7.0/standalone/data/content/89/1834299464f94efe3b50b1ee020c5aa5e8306b/content
+2016-12-11 20:29:14,264 INFO  [org.jboss.as.repository] (management-handler-thread - 4) WFLYDR0001: Content added at location /Users/simon/jboss_eap_7.0/standalone/data/content/85/67969e1392bb89910c4d83a24e7cea86a02a77/content
+2016-12-11 20:29:14,268 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "my-target-be-model-1.0-SNAPSHOT.jar" (runtime-name: "my-target-be-model-1.0-SNAPSHOT.jar")
+2016-12-11 20:29:14,273 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) WFLYJPA0002: Read persistence.xml for myTarget-db
+2016-12-11 20:29:14,282 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 71) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'my-target-be-model-1.0-SNAPSHOT.jar#myTarget-db'
+2016-12-11 20:29:14,282 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 71) HHH000204: Processing PersistenceUnitInfo [
+	name: myTarget-db
+	...]
+2016-12-11 20:29:14,288 INFO  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 71) HHH90000001: Found usage of deprecated setting for specifying Scanner [hibernate.ejb.resource_scanner]; use [hibernate.archive.scanner] instead
+2016-12-11 20:29:14,292 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 71) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'my-target-be-model-1.0-SNAPSHOT.jar#myTarget-db'
+2016-12-11 20:29:14,296 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 71) HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-12-11 20:29:14,302 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 71) Envers integration enabled? : true
+2016-12-11 20:29:14,387 INFO  [org.hibernate.tool.hbm2ddl.SchemaValidator] (ServerService Thread Pool -- 71) HHH000229: Running schema validator
+2016-12-11 20:29:14,476 INFO  [org.jboss.as.server] (management-handler-thread - 4) WFLYSRV0010: Deployed "my-target-be-model-1.0-SNAPSHOT.jar" (runtime-name : "my-target-be-model-1.0-SNAPSHOT.jar")
+2016-12-11 20:29:14,828 INFO  [org.jboss.as.repository] (management-handler-thread - 4) WFLYDR0001: Content added at location /Users/simon/jboss_eap_7.0/standalone/data/content/d4/80423b52ea79426bbe8b21d963a47cab92a026/content
+2016-12-11 20:29:14,829 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "my-target-be-ejb-1.0-SNAPSHOT.jar" (runtime-name: "my-target-be-ejb-1.0-SNAPSHOT.jar")
+2016-12-11 20:29:14,846 INFO  [org.jboss.as.server] (management-handler-thread - 4) WFLYSRV0010: Deployed "my-target-be-ejb-1.0-SNAPSHOT.jar" (runtime-name : "my-target-be-ejb-1.0-SNAPSHOT.jar")
+2016-12-11 20:29:15,611 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location /Users/simon/jboss_eap_7.0/standalone/data/content/e4/07d65d21878d0d735486c145fadaade40e3e97/content
+2016-12-11 20:29:15,613 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "my-target-be-ear-1.0-SNAPSHOT.ear" (runtime-name: "my-target-be-ear-1.0-SNAPSHOT.ear")
+2016-12-11 20:29:15,715 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0207: Starting subdeployment (runtime-name: "my-target-be-web-1.0-SNAPSHOT.war")
+2016-12-11 20:29:15,715 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0207: Starting subdeployment (runtime-name: "my-target-be-ejb-1.0-SNAPSHOT.jar")
+2016-12-11 20:29:15,721 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) WFLYJPA0002: Read persistence.xml for myTarget-db
+2016-12-11 20:29:15,740 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 69) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'my-target-be-ear-1.0-SNAPSHOT.ear#myTarget-db'
+2016-12-11 20:29:15,740 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 69) HHH000204: Processing PersistenceUnitInfo [
+	name: myTarget-db
+	...]
+2016-12-11 20:29:15,743 INFO  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 69) HHH90000001: Found usage of deprecated setting for specifying Scanner [hibernate.ejb.resource_scanner]; use [hibernate.archive.scanner] instead
+2016-12-11 20:29:15,765 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 69) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'my-target-be-ear-1.0-SNAPSHOT.ear#myTarget-db'
+2016-12-11 20:29:15,769 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 69) HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-12-11 20:29:15,777 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 69) Envers integration enabled? : true
+2016-12-11 20:29:15,850 INFO  [org.hibernate.tool.hbm2ddl.SchemaValidator] (ServerService Thread Pool -- 69) HHH000229: Running schema validator
+2016-12-11 20:29:15,894 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 73) WFLYUT0021: Registered web context: /my-target-be/
+2016-12-11 20:29:15,900 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "my-target-be-ear-1.0-SNAPSHOT.ear" (runtime-name : "my-target-be-ear-1.0-SNAPSHOT.ear")
+2016-12-11 20:29:53,759 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Server shutdown has been requested.
+2016-12-11 20:29:53,773 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 75) WFLYUT0022: Unregistered web context: /my-target-be/
+2016-12-11 20:29:53,777 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 77) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'my-target-be-model-1.0-SNAPSHOT.jar#myTarget-db'
+2016-12-11 20:29:53,778 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 78) WFLYUT0022: Unregistered web context: /my-target-be-web
+2016-12-11 20:29:53,783 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 76) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'my-target-be-model-1.0-SNAPSHOT.jar#myTarget-db'
+2016-12-11 20:29:53,785 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0019: Host default-host stopping
+2016-12-11 20:29:53,787 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 74) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'my-target-be-ear-1.0-SNAPSHOT.ear#myTarget-db'
+2016-12-11 20:29:53,788 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2016-12-11 20:29:53,791 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2016-12-11 20:29:53,791 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 74) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'my-target-be-ear-1.0-SNAPSHOT.ear#myTarget-db'
+2016-12-11 20:29:53,792 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment my-target-be-ejb-1.0-SNAPSHOT.jar (runtime-name: my-target-be-ejb-1.0-SNAPSHOT.jar) in 28ms
+2016-12-11 20:29:53,792 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment my-target-be-api-1.0-SNAPSHOT.jar (runtime-name: my-target-be-api-1.0-SNAPSHOT.jar) in 25ms
+2016-12-11 20:29:53,792 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0010: Unbound data source [java:jboss/MySqlDS]
+2016-12-11 20:29:53,792 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment my-target-be-model-1.0-SNAPSHOT.jar (runtime-name: my-target-be-model-1.0-SNAPSHOT.jar) in 25ms
+2016-12-11 20:29:53,793 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment my-target-be-commons-1.0-SNAPSHOT.jar (runtime-name: my-target-be-commons-1.0-SNAPSHOT.jar) in 25ms
+2016-12-11 20:29:53,796 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment my-target-be-web.war (runtime-name: my-target-be-web.war) in 29ms
+2016-12-11 20:29:53,798 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0208: Stopped subdeployment (runtime-name: my-target-be-ejb-1.0-SNAPSHOT.jar) in 30ms
+2016-12-11 20:29:53,800 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Stopped Driver service with driver-name = mysql
+2016-12-11 20:29:53,800 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0208: Stopped subdeployment (runtime-name: my-target-be-web-1.0-SNAPSHOT.war) in 33ms
+2016-12-11 20:29:53,802 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0008: Undertow HTTP listener default suspending
+2016-12-11 20:29:53,802 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2016-12-11 20:29:53,803 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0004: Undertow 1.3.21.Final-redhat-1 stopping
+2016-12-11 20:29:53,806 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment my-target-be-ear-1.0-SNAPSHOT.ear (runtime-name: my-target-be-ear-1.0-SNAPSHOT.ear) in 39ms
+2016-12-11 20:29:53,809 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0050: JBoss EAP 7.0.0.GA (WildFly Core 2.1.2.Final-redhat-1) stopped in 36ms

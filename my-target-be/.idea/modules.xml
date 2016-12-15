@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/my-target-be.iml" filepath="$PROJECT_DIR$/my-target-be.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-target-be-api/my-target-be-api.iml" filepath="$PROJECT_DIR$/my-target-be-api/my-target-be-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-target-be-commons/my-target-be-commons.iml" filepath="$PROJECT_DIR$/my-target-be-commons/my-target-be-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-target-be-ear/my-target-be-ear.iml" filepath="$PROJECT_DIR$/my-target-be-ear/my-target-be-ear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-target-be-ejb/my-target-be-ejb.iml" filepath="$PROJECT_DIR$/my-target-be-ejb/my-target-be-ejb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-target-be-model/my-target-be-model.iml" filepath="$PROJECT_DIR$/my-target-be-model/my-target-be-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-target-be-web/my-target-be-web.iml" filepath="$PROJECT_DIR$/my-target-be-web/my-target-be-web.iml" />
+    </modules>
+  </component>
+</project>
