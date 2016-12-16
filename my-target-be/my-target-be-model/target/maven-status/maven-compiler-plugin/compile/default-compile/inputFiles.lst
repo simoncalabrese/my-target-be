@@ -1,0 +1,13 @@
+/Users/simon/IdeaProjects/MyTarget/my-target-be/my-target-be-model/src/main/java/dao/BaseDao.java
+/Users/simon/IdeaProjects/MyTarget/my-target-be/my-target-be-model/src/main/java/dao/BaseDaoImp.java
+/Users/simon/IdeaProjects/MyTarget/my-target-be/my-target-be-model/src/main/java/entity/Promotion.java
+/Users/simon/IdeaProjects/MyTarget/my-target-be/my-target-be-model/src/main/java/entity/Structure.java
+/Users/simon/IdeaProjects/MyTarget/my-target-be/my-target-be-model/src/main/java/entity/PaymentType.java
+/Users/simon/IdeaProjects/MyTarget/my-target-be/my-target-be-model/src/main/java/entity/Postation.java
+/Users/simon/IdeaProjects/MyTarget/my-target-be/my-target-be-model/src/main/java/dao/Pagination.java
+/Users/simon/IdeaProjects/MyTarget/my-target-be/my-target-be-model/src/main/java/entity/IEntity.java
+/Users/simon/IdeaProjects/MyTarget/my-target-be/my-target-be-model/src/main/java/entity/PersonPostation.java
+/Users/simon/IdeaProjects/MyTarget/my-target-be/my-target-be-model/src/main/java/entity/Role.java
+/Users/simon/IdeaProjects/MyTarget/my-target-be/my-target-be-model/src/main/java/entity/Target.java
+/Users/simon/IdeaProjects/MyTarget/my-target-be/my-target-be-model/src/main/java/entity/Person.java
+/Users/simon/IdeaProjects/MyTarget/my-target-be/my-target-be-model/src/main/java/entity/Activation.java

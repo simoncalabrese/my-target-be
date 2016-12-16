@@ -1,0 +1,13 @@
+entity/PaymentType.class
+entity/PersonPostation.class
+entity/Target.class
+dao/BaseDaoImp.class
+entity/Activation.class
+entity/Person.class
+dao/BaseDao.class
+dao/Pagination.class
+entity/Postation.class
+entity/Structure.class
+entity/IEntity.class
+entity/Promotion.class
+entity/Role.class

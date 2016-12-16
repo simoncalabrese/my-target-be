@@ -8,6 +8,7 @@ import javax.persistence.TypedQuery;
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import java.util.List;
+import java.util.function.Function;
 import java.util.function.Predicate;
 
 /**
@@ -16,6 +17,11 @@ import java.util.function.Predicate;
 public class BaseDaoImp<E extends IEntity> implements BaseDao<E> {
     @PersistenceContext(unitName = "my-target-be-model")
     private static EntityManager entityManager;
+
+    @Override
+    public E find(final Integer key) {
+        return entityManager.find(getEntityType(),key);
+    }
 
     @Override
     public CriteriaBuilder getCriteriaBuilder() {
@@ -39,6 +45,7 @@ public class BaseDaoImp<E extends IEntity> implements BaseDao<E> {
         return getResultiListGenericPaginated(genericQuery, null);
     }
 
+    @Override
     public <T> List<T> getResultiListGenericPaginated(final CriteriaQuery<T> genericQuery,
                                                       final Pagination pagination) {
         return addPaginationGeneric(entityManager.createQuery(genericQuery), pagination)
@@ -52,7 +59,18 @@ public class BaseDaoImp<E extends IEntity> implements BaseDao<E> {
 
     @Override
     public <T> T getSingleResultGeneric(CriteriaQuery<T> genericQuery) {
-        return entityManager.createQuery(genericQuery).getSingleResult();
+        return getResultListGeneric(genericQuery).stream().findFirst().orElse(null);
+    }
+
+    @Override
+    public <T> T getCountResult(final CriteriaQuery<T> query){
+        return entityManager.createQuery(query).getSingleResult();
+    }
+
+    @Override
+    public Number getCountResultGeneric(final CriteriaQuery<Number> query, Function<Number, Number> numberConverter) {
+        return entityManager.createQuery(query).getResultList()
+                .stream().map(numberConverter).findFirst().orElse(null);
     }
 
     private TypedQuery<E> addPagination(final TypedQuery<E> query,
