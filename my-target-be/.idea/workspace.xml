@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8eaf6ca5-2b60-4fd5-8457-da80eec15f98" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_jpamodelgen_5_2_5_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my-target-be-model/src/main/java/dao/PersonDao.java" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/data/content/19/76d6c66919ae6ed9dc00142bde083381d84a89/content" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/data/content/4f/141d0faaefd645dc1839d2d94efceb9e4e8061/content" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/data/content/a7/7003e6eda3c19f34504b88acbf9b4a97727a8b/content" afterPath="" />
@@ -33,6 +34,17 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/tmp/vfs/temp/temp1b99a53f0ad41e8f/content-8393b5c5a71a6870/content" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/tmp/vfs/temp/temp1b99a53f0ad41e8f/content-a8f13dfb2655e112/content" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/tmp/vfs/temp/temp1b99a53f0ad41e8f/content-cabccb96213da016/content" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-api/target/my-target-be-api-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/my-target-be-api/target/my-target-be-api-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-commons/target/my-target-be-commons-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/my-target-be-commons/target/my-target-be-commons-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-ear/target/my-target-be-ear-1.0-SNAPSHOT.ear" afterPath="$PROJECT_DIR$/my-target-be-ear/target/my-target-be-ear-1.0-SNAPSHOT.ear" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-ear/target/my-target-be-ear-1.0-SNAPSHOT/lib/my-target-be-api-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/my-target-be-ear/target/my-target-be-ear-1.0-SNAPSHOT/lib/my-target-be-api-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-ear/target/my-target-be-ear-1.0-SNAPSHOT/lib/my-target-be-commons-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/my-target-be-ear/target/my-target-be-ear-1.0-SNAPSHOT/lib/my-target-be-commons-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-ear/target/my-target-be-ear-1.0-SNAPSHOT/lib/my-target-be-model-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/my-target-be-ear/target/my-target-be-ear-1.0-SNAPSHOT/lib/my-target-be-model-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-ear/target/my-target-be-ear-1.0-SNAPSHOT/my-target-be-ejb-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/my-target-be-ear/target/my-target-be-ear-1.0-SNAPSHOT/my-target-be-ejb-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-ear/target/my-target-be-ear-1.0-SNAPSHOT/my-target-be-web-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/my-target-be-ear/target/my-target-be-ear-1.0-SNAPSHOT/my-target-be-web-1.0-SNAPSHOT.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-ejb/target/my-target-be-ejb-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/my-target-be-ejb/target/my-target-be-ejb-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-model/target/my-target-be-model-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/my-target-be-model/target/my-target-be-model-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-web/target/my-target-be-web.war" afterPath="$PROJECT_DIR$/my-target-be-web/target/my-target-be-web.war" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone.xml" afterPath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v1.xml" afterPath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v1.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v10.xml" afterPath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v10.xml" />
@@ -51,9 +63,18 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/log/gc.log.0.current" afterPath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/log/gc.log.0.current" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/log/server.log" afterPath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/log/server.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/tmp/startup-marker" afterPath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/tmp/startup-marker" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-api/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/my-target-be-api/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-commons/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/my-target-be-commons/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-ear/my-target-be-ear.iml" afterPath="$PROJECT_DIR$/my-target-be-ear/my-target-be-ear.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-ear/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/my-target-be-ear/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-ejb/my-target-be-ejb.iml" afterPath="$PROJECT_DIR$/my-target-be-ejb/my-target-be-ejb.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-ejb/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/my-target-be-ejb/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-model/my-target-be-model.iml" afterPath="$PROJECT_DIR$/my-target-be-model/my-target-be-model.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-model/pom.xml" afterPath="$PROJECT_DIR$/my-target-be-model/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-model/src/main/java/dao/BaseDao.java" afterPath="$PROJECT_DIR$/my-target-be-model/src/main/java/dao/BaseDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-model/src/main/java/dao/BaseDaoImp.java" afterPath="$PROJECT_DIR$/my-target-be-model/src/main/java/dao/BaseDaoImp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-model/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/my-target-be-model/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-model/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/my-target-be-model/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-web/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/my-target-be-web/target/maven-archiver/pom.properties" />
     </list>
     <ignored path="my-target-be.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,44 +102,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BaseDaoImp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-target-be-model/src/main/java/dao/BaseDaoImp.java">
+      <file leaf-file-name="PersonDao.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/my-target-be-model/src/main/java/dao/PersonDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-              <folding>
-                <element signature="e#622#623#0" expanded="true" />
-                <element signature="e#684#685#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/my-target-be-model/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="persistence.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-target-be-model/src/main/resources/META-INF/persistence.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="87" column="25" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="25" />
+            <state relative-caret-position="105">
+              <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -130,6 +118,20 @@
             <state relative-caret-position="300">
               <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseDaoImp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-target-be-model/src/main/java/dao/BaseDaoImp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#622#623#0" expanded="true" />
+                <element signature="e#684#685#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -180,10 +182,11 @@
         <option value="$PROJECT_DIR$/my-target-be-model/src/main/java/dao/Pagination.java" />
         <option value="$PROJECT_DIR$/my-target-be-model/src/main/java/dao/BaseDao.java" />
         <option value="$PROJECT_DIR$/my-target-be-ear/pom.xml" />
-        <option value="$PROJECT_DIR$/my-target-be-model/src/main/java/dao/BaseDaoImp.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/my-target-be-model/src/main/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/my-target-be-model/pom.xml" />
+        <option value="$PROJECT_DIR$/my-target-be-model/src/main/java/dao/BaseDaoImp.java" />
+        <option value="$PROJECT_DIR$/my-target-be-model/src/main/java/dao/PersonDao.java" />
       </list>
     </option>
   </component>
@@ -308,7 +311,85 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my-target-be" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my-target-be" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my-target-be-model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my-target-be" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my-target-be" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my-target-be-model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my-target-be" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my-target-be" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my-target-be-model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -319,12 +400,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="FullScreen" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$USER_HOME$/Documents/babel/babel-it-be" />
     <property name="SearchEverywhereHistoryKey" value="persis&#9;FILE&#9;file:///Users/simon/IdeaProjects/MyTarget/my-target-be/my-target-be-model/src/main/resources/META-INF/persistence.xml&#10;pom&#9;FILE&#9;file:///Users/simon/IdeaProjects/MyTarget/my-target-be/my-target-be-ear/pom.xml&#10;p&#9;FILE&#9;file:///Users/simon/IdeaProjects/MyTarget/my-target-be/my-target-be-model/src/main/resources/META-INF/persistence.xml" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
@@ -653,6 +734,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="8eaf6ca5-2b60-4fd5-8457-da80eec15f98" name="Default" comment="" />
@@ -675,8 +759,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28397712" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21890548" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21890548" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -987,30 +1071,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-target-be-model/src/main/java/dao/BaseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final-sources.jar!/javax/persistence/EntityManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1510">
           <caret line="170" column="29" selection-start-line="170" selection-start-column="29" selection-end-line="170" selection-end-column="29" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-target-be-model/src/main/java/dao/BaseDaoImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-          <folding>
-            <element signature="e#622#623#0" expanded="true" />
-            <element signature="e#684#685#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1032,8 +1097,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/my-target-be-model/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        <state relative-caret-position="442">
+          <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-target-be-model/src/main/java/dao/BaseDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-target-be-model/src/main/java/dao/BaseDaoImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#622#623#0" expanded="true" />
+            <element signature="e#684#685#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-target-be-model/src/main/java/dao/PersonDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
           <folding />
         </state>
       </provider>
@@ -1125,5 +1218,10 @@
         </settings>
       </state>
     </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="clean package" />
+    <option value="clean install" />
   </component>
 </project>
