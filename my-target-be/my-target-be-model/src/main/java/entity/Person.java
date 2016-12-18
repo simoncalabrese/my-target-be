@@ -9,6 +9,8 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 import javax.persistence.Transient;
 import java.util.List;
+import java.util.Optional;
+
 /**
  * Created by simon on 06/12/16.
  */
@@ -124,8 +126,8 @@ public class Person implements IEntity {
         this.password = password;
     }
 
-    public Person getPersonParent() {
-        return personParent;
+    public Optional<Person> getPersonParent() {
+        return Optional.of(personParent);
     }
 
     public void setPersonParent(Person personParent) {

@@ -1,0 +1,6 @@
+converter/SuperConverter.class
+converter/RoleConverter.class
+service/PersonService.class
+converter/PersonConverter.class
+annotation/DefaultInterceptor.class
+service/BaseService.class

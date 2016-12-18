@@ -1,11 +1,14 @@
 package dao;
 
 import entity.IEntity;
+import exceptions.BeException;
 
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
+import javax.persistence.criteria.Predicate;
 import java.lang.reflect.ParameterizedType;
 import java.util.List;
+import java.util.Optional;
 import java.util.function.Function;
 
 @SuppressWarnings("unchecked")
@@ -29,7 +32,7 @@ public interface BaseDao<E extends IEntity> {
     <T> List<T> getResultiListGenericPaginated(CriteriaQuery<T> genericQuery,
                                                Pagination pagination);
 
-    E getSingleResult(CriteriaQuery<E> query);
+    E getSingleResult(CriteriaQuery<E> query) throws IllegalAccessException, InstantiationException, BeException;
 
     <T> T getSingleResultGeneric(CriteriaQuery<T> genericQuery);
 

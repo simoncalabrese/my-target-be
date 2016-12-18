@@ -1,26 +1,28 @@
 package dao;
 
 import entity.IEntity;
+import exceptions.BeException;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.TypedQuery;
-import javax.persistence.criteria.CriteriaBuilder;
-import javax.persistence.criteria.CriteriaQuery;
+import javax.persistence.criteria.*;
+import javax.persistence.criteria.Predicate;
+import java.io.Serializable;
 import java.util.List;
-import java.util.function.Function;
-import java.util.function.Predicate;
+import java.util.Optional;
+import java.util.function.*;
 
 /**
  * Created by simon on 15/12/16.
  */
-public class BaseDaoImp<E extends IEntity> implements BaseDao<E> {
+public class BaseDaoImp<E extends IEntity> implements BaseDao<E>, Serializable {
     @PersistenceContext(unitName = "my-target-be-model")
     private static EntityManager entityManager;
 
     @Override
     public E find(final Integer key) {
-        return entityManager.find(getEntityType(),key);
+        return entityManager.find(getEntityType(), key);
     }
 
     @Override
@@ -29,13 +31,13 @@ public class BaseDaoImp<E extends IEntity> implements BaseDao<E> {
     }
 
     @Override
-    public final List getResultList(final CriteriaQuery query) {
+    public final List<E> getResultList(final CriteriaQuery query) {
         return getResultListPaginated(query, null);
     }
 
     @Override
-    public List getResultListPaginated(final CriteriaQuery query,
-                                       final Pagination pagination) {
+    public List<E> getResultListPaginated(final CriteriaQuery query,
+                                          final Pagination pagination) {
         return addPagination(entityManager.createQuery(query), pagination)
                 .getResultList();
     }
@@ -53,7 +55,7 @@ public class BaseDaoImp<E extends IEntity> implements BaseDao<E> {
     }
 
     @Override
-    public E getSingleResult(CriteriaQuery<E> query) {
+    public E getSingleResult(CriteriaQuery<E> query) throws BeException {
         return entityManager.createQuery(query).getSingleResult();
     }
 
@@ -63,30 +65,28 @@ public class BaseDaoImp<E extends IEntity> implements BaseDao<E> {
     }
 
     @Override
-    public <T> T getCountResult(final CriteriaQuery<T> query){
+    public <T> T getCountResult(final CriteriaQuery<T> query) {
         return entityManager.createQuery(query).getSingleResult();
     }
 
     @Override
     public Number getCountResultGeneric(final CriteriaQuery<Number> query, Function<Number, Number> numberConverter) {
-        return entityManager.createQuery(query).getResultList()
-                .stream().map(numberConverter).findFirst().orElse(null);
+        return entityManager.createQuery(query).getSingleResult();
     }
 
     private TypedQuery<E> addPagination(final TypedQuery<E> query,
                                         final Pagination pagination) {
 
-        Predicate<Pagination> valid = e ->
-                e.getStartValue() != null
-                        && e.getStartValue() != null
-                        && Integer.compare(e.getStartValue(), 0) >= 0
-                        && Integer.compare(e.getEndValue(), 0) > 0;
+        Boolean valid = pagination.getStartValue() != null
+                && pagination.getStartValue() != null
+                && Integer.compare(pagination.getStartValue(), 0) >= 0
+                && Integer.compare(pagination.getEndValue(), 0) > 0;
 
         if (pagination == null) {
             return query;
         }
 
-        if (valid.test(pagination)) {
+        if (valid) {
             query.setFirstResult(pagination.getStartValue());
             query.setMaxResults(pagination.getEndValue());
         }
@@ -96,17 +96,16 @@ public class BaseDaoImp<E extends IEntity> implements BaseDao<E> {
     private <T> TypedQuery<T> addPaginationGeneric(final TypedQuery<T> query,
                                                    final Pagination pagination) {
 
-        Predicate<Pagination> valid = e ->
-                e.getStartValue() != null
-                        && e.getStartValue() != null
-                        && Integer.compare(e.getStartValue(), 0) >= 0
-                        && Integer.compare(e.getEndValue(), 0) > 0;
+        Boolean valid = pagination.getStartValue() != null
+                && pagination.getStartValue() != null
+                && Integer.compare(pagination.getStartValue(), 0) >= 0
+                && Integer.compare(pagination.getEndValue(), 0) > 0;
 
         if (pagination == null) {
             return query;
         }
 
-        if (valid.test(pagination)) {
+        if (valid) {
             query.setFirstResult(pagination.getStartValue());
             query.setMaxResults(pagination.getEndValue());
         }
