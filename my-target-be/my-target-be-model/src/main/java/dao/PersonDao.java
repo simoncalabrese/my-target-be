@@ -2,7 +2,6 @@ package dao;
 
 import entity.Person;
 import entity.Person_;
-import exceptions.BeException;
 
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
@@ -10,7 +9,7 @@ import javax.persistence.criteria.Root;
 
 public class PersonDao extends BaseDaoImp<Person> {
 
-    public Person getPersonByCForPi(final String codForSearch) throws BeException {
+    public Person getPersonByCForPi(final String codForSearch){
         CriteriaBuilder cb = getCriteriaBuilder();
         CriteriaQuery<Person> query = cb.createQuery(getEntityType());
         Root<Person> root = query.from(getEntityType());

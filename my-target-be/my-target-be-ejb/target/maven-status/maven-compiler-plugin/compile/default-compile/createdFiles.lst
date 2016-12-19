@@ -1,6 +1,6 @@
 converter/SuperConverter.class
+DefaultInterceptor.class
+converter/PersonConverter.class
+service/BaseService.class
 converter/RoleConverter.class
 service/PersonService.class
-converter/PersonConverter.class
-annotation/DefaultInterceptor.class
-service/BaseService.class

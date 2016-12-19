@@ -1,7 +1,6 @@
 package dao;
 
 import entity.IEntity;
-import exceptions.BeException;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
@@ -55,7 +54,7 @@ public class BaseDaoImp<E extends IEntity> implements BaseDao<E>, Serializable {
     }
 
     @Override
-    public E getSingleResult(CriteriaQuery<E> query) throws BeException {
+    public E getSingleResult(CriteriaQuery<E> query){
         return entityManager.createQuery(query).getSingleResult();
     }
 

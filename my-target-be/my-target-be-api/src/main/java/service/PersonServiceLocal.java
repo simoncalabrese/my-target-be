@@ -1,7 +1,6 @@
 package service;
 
 import dto.PersonDto;
-import exceptions.BeException;
 
 import javax.ejb.Local;
 import java.util.Optional;
@@ -11,5 +10,5 @@ import java.util.Optional;
  */
 @Local
 public interface PersonServiceLocal {
-    PersonDto getPersonByCod(final Optional<String> cod) throws BeException;
+    PersonDto getPersonByCod(final Optional<String> cod);
 }

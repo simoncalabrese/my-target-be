@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8eaf6ca5-2b60-4fd5-8457-da80eec15f98" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_jsr250_api_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_enterprise_cdi_api_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_javax_inject_2_4_0_b25.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_javax_inject_2_5_0_b30.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_interceptor_jboss_interceptor_api_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my-target-be-api/src/main/java/dto/PersonDto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my-target-be-api/src/main/java/dto/RoleDto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my-target-be-api/src/main/java/service/PersonServiceLocal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my-target-be-commons/src/main/java/exceptions/BeException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my-target-be-ejb/src/main/java/annotation/DefaultInterceptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my-target-be-ejb/src/main/java/converter/PersonConverter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my-target-be-ejb/src/main/java/converter/RoleConverter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my-target-be-ejb/src/main/java/converter/SuperConverter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my-target-be-ejb/src/main/java/service/BaseService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my-target-be-ejb/src/main/java/service/PersonService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my-target-be-web/src/main/java/controller/PersonController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my-target-be-ejb/src/main/java/DefaultInterceptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my-target-be-ejb/src/main/resources/beans.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v12.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/data/content/19/76d6c66919ae6ed9dc00142bde083381d84a89/content" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/data/content/4f/141d0faaefd645dc1839d2d94efceb9e4e8061/content" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/data/content/a7/7003e6eda3c19f34504b88acbf9b4a97727a8b/content" afterPath="" />
@@ -50,20 +35,35 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/tmp/vfs/temp/temp1b99a53f0ad41e8f/content-8393b5c5a71a6870/content" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/tmp/vfs/temp/temp1b99a53f0ad41e8f/content-a8f13dfb2655e112/content" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/tmp/vfs/temp/temp1b99a53f0ad41e8f/content-cabccb96213da016/content" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_javax_inject_2_4_0_b25.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/my-target-be-commons/src/main/java/exceptions/BeException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/my-target-be-commons/target/classes/exceptions/BeException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/my-target-be-commons/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/my-target-be-ejb/target/classes/annotation/DefaultInterceptor.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/my-target-be-ejb/src/main/java/annotation/DefaultInterceptor.java" afterPath="$PROJECT_DIR$/my-target-be-api/src/main/java/annotation/DefaultInterceptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-api/target/classes/service/PersonServiceLocal.class" afterPath="$PROJECT_DIR$/my-target-be-api/target/classes/service/PersonServiceLocal.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-api/target/my-target-be-api-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/my-target-be-api/target/my-target-be-api-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-commons/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/my-target-be-commons/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-commons/target/my-target-be-commons-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/my-target-be-commons/target/my-target-be-commons-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-ear/target/my-target-be-ear-1.0-SNAPSHOT.ear" afterPath="$PROJECT_DIR$/my-target-be-ear/target/my-target-be-ear-1.0-SNAPSHOT.ear" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-ear/target/my-target-be-ear-1.0-SNAPSHOT/lib/my-target-be-api-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/my-target-be-ear/target/my-target-be-ear-1.0-SNAPSHOT/lib/my-target-be-api-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-ear/target/my-target-be-ear-1.0-SNAPSHOT/lib/my-target-be-commons-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/my-target-be-ear/target/my-target-be-ear-1.0-SNAPSHOT/lib/my-target-be-commons-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-ear/target/my-target-be-ear-1.0-SNAPSHOT/lib/my-target-be-model-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/my-target-be-ear/target/my-target-be-ear-1.0-SNAPSHOT/lib/my-target-be-model-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-ear/target/my-target-be-ear-1.0-SNAPSHOT/my-target-be-ejb-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/my-target-be-ear/target/my-target-be-ear-1.0-SNAPSHOT/my-target-be-ejb-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-ear/target/my-target-be-ear-1.0-SNAPSHOT/my-target-be-web-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/my-target-be-ear/target/my-target-be-ear-1.0-SNAPSHOT/my-target-be-web-1.0-SNAPSHOT.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-ejb/target/classes/service/PersonService.class" afterPath="$PROJECT_DIR$/my-target-be-ejb/target/classes/service/PersonService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-ejb/target/my-target-be-ejb-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/my-target-be-ejb/target/my-target-be-ejb-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-model/target/classes/dao/BaseDao.class" afterPath="$PROJECT_DIR$/my-target-be-model/target/classes/dao/BaseDao.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-model/target/classes/dao/BaseDaoImp.class" afterPath="$PROJECT_DIR$/my-target-be-model/target/classes/dao/BaseDaoImp.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-model/target/classes/dao/PersonDao.class" afterPath="$PROJECT_DIR$/my-target-be-model/target/classes/dao/PersonDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-model/target/classes/entity/Person.class" afterPath="$PROJECT_DIR$/my-target-be-model/target/classes/entity/Person.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-model/target/my-target-be-model-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/my-target-be-model/target/my-target-be-model-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-web/target/classes/controller/PersonController.class" afterPath="$PROJECT_DIR$/my-target-be-web/target/classes/controller/PersonController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-web/target/my-target-be-web.war" afterPath="$PROJECT_DIR$/my-target-be-web/target/my-target-be-web.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-web/target/my-target-be-web/WEB-INF/classes/controller/PersonController.class" afterPath="$PROJECT_DIR$/my-target-be-web/target/my-target-be-web/WEB-INF/classes/controller/PersonController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone.xml" afterPath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v1.xml" afterPath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v1.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v10.xml" afterPath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v10.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v11.xml" afterPath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v11.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v12.xml" afterPath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v12.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v2.xml" afterPath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v2.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v3.xml" afterPath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v3.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v4.xml" afterPath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v4.xml" />
@@ -80,21 +80,26 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-api/my-target-be-api.iml" afterPath="$PROJECT_DIR$/my-target-be-api/my-target-be-api.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-api/pom.xml" afterPath="$PROJECT_DIR$/my-target-be-api/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-api/src/main/java/service/PersonServiceLocal.java" afterPath="$PROJECT_DIR$/my-target-be-api/src/main/java/service/PersonServiceLocal.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/my-target-be-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/my-target-be-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-commons/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/my-target-be-commons/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-ear/my-target-be-ear.iml" afterPath="$PROJECT_DIR$/my-target-be-ear/my-target-be-ear.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-ear/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/my-target-be-ear/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-ejb/my-target-be-ejb.iml" afterPath="$PROJECT_DIR$/my-target-be-ejb/my-target-be-ejb.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-ejb/pom.xml" afterPath="$PROJECT_DIR$/my-target-be-ejb/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-ejb/src/main/java/service/BaseService.java" afterPath="$PROJECT_DIR$/my-target-be-ejb/src/main/java/service/BaseService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-ejb/src/main/java/service/PersonService.java" afterPath="$PROJECT_DIR$/my-target-be-ejb/src/main/java/service/PersonService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-ejb/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/my-target-be-ejb/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-ejb/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/my-target-be-ejb/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-ejb/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/my-target-be-ejb/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-model/pom.xml" afterPath="$PROJECT_DIR$/my-target-be-model/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-model/src/main/java/dao/BaseDao.java" afterPath="$PROJECT_DIR$/my-target-be-model/src/main/java/dao/BaseDao.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-model/src/main/java/dao/BaseDaoImp.java" afterPath="$PROJECT_DIR$/my-target-be-model/src/main/java/dao/BaseDaoImp.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-model/src/main/java/dao/PersonDao.java" afterPath="$PROJECT_DIR$/my-target-be-model/src/main/java/dao/PersonDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-model/src/main/java/entity/Person.java" afterPath="$PROJECT_DIR$/my-target-be-model/src/main/java/entity/Person.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-web/my-target-be-web.iml" afterPath="$PROJECT_DIR$/my-target-be-web/my-target-be-web.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-web/pom.xml" afterPath="$PROJECT_DIR$/my-target-be-web/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-web/src/main/java/controller/PersonController.java" afterPath="$PROJECT_DIR$/my-target-be-web/src/main/java/controller/PersonController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-web/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/my-target-be-web/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/my-target-be-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
     </list>
     <ignored path="my-target-be.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -122,23 +127,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PersonDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-target-be-model/src/main/java/dao/PersonDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="PersonService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-target-be-ejb/src/main/java/service/PersonService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+            <state relative-caret-position="266">
+              <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -146,11 +139,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DefaultInterceptor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-target-be-ejb/src/main/java/annotation/DefaultInterceptor.java">
+      <file leaf-file-name="beans.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-target-be-ejb/src/main/resources/beans.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+            <state relative-caret-position="75">
+              <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultInterceptor.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/my-target-be-ejb/src/main/java/DefaultInterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -158,84 +161,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PersonConverter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-target-be-ejb/src/main/java/converter/PersonConverter.java">
+      <file leaf-file-name="PersonDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-target-be-model/src/main/java/dao/PersonDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#865#866#0" expanded="true" />
-                <element signature="e#929#930#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PersonDto.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-target-be-api/src/main/java/dto/PersonDto.java">
+      <file leaf-file-name="PersonController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-target-be-web/src/main/java/controller/PersonController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-              <folding>
-                <element signature="e#379#380#0" expanded="false" />
-                <element signature="e#409#410#0" expanded="false" />
-                <element signature="e#456#457#0" expanded="false" />
-                <element signature="e#494#495#0" expanded="false" />
-                <element signature="e#530#531#0" expanded="false" />
-                <element signature="e#562#563#0" expanded="false" />
-                <element signature="e#612#613#0" expanded="false" />
-                <element signature="e#654#655#0" expanded="false" />
-                <element signature="e#691#692#0" expanded="false" />
-                <element signature="e#724#725#0" expanded="false" />
-                <element signature="e#776#777#0" expanded="false" />
-                <element signature="e#820#821#0" expanded="false" />
-                <element signature="e#851#852#0" expanded="false" />
-                <element signature="e#878#879#0" expanded="false" />
-                <element signature="e#918#919#0" expanded="false" />
-                <element signature="e#950#951#0" expanded="false" />
-                <element signature="e#986#987#0" expanded="false" />
-                <element signature="e#1017#1018#0" expanded="false" />
-                <element signature="e#1066#1067#0" expanded="false" />
-                <element signature="e#1106#1107#0" expanded="false" />
-                <element signature="e#1141#1142#0" expanded="false" />
-                <element signature="e#1172#1173#0" expanded="false" />
-                <element signature="e#1220#1221#0" expanded="false" />
-                <element signature="e#1260#1261#0" expanded="false" />
-                <element signature="e#1295#1296#0" expanded="false" />
-                <element signature="e#1326#1327#0" expanded="false" />
-                <element signature="e#1374#1375#0" expanded="false" />
-                <element signature="e#1414#1415#0" expanded="false" />
-                <element signature="e#1456#1457#0" expanded="false" />
-                <element signature="e#1491#1492#0" expanded="false" />
-                <element signature="e#1550#1551#0" expanded="false" />
-                <element signature="e#1598#1599#0" expanded="false" />
-                <element signature="e#1630#1631#0" expanded="false" />
-                <element signature="e#1657#1658#0" expanded="false" />
-                <element signature="e#1698#1699#0" expanded="false" />
-                <element signature="e#1730#1731#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PersonServiceLocal.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-target-be-api/src/main/java/service/PersonServiceLocal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseService.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/my-target-be-ejb/src/main/java/service/BaseService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+            <state relative-caret-position="311">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -246,13 +186,22 @@
       <file leaf-file-name="BaseDaoImp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-target-be-model/src/main/java/dao/BaseDaoImp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1425">
-              <caret line="112" column="5" selection-start-line="112" selection-start-column="5" selection-end-line="112" selection-end-column="5" />
+            <state relative-caret-position="255">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
               <folding>
-                <element signature="e#789#790#0" expanded="false" />
-                <element signature="e#846#847#0" expanded="false" />
-                <element signature="e#929#930#0" expanded="false" />
-                <element signature="e#987#988#0" expanded="false" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-target-be-ejb/src/main/java/service/BaseService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -264,8 +213,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -289,10 +238,8 @@
         <option value="$PROJECT_DIR$/my-target-be-web/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/my-target-be-model/src/main/java/entity/IEntity.java" />
         <option value="$PROJECT_DIR$/my-target-be-commons/pom.xml" />
-        <option value="$PROJECT_DIR$/my-target-be-api/pom.xml" />
         <option value="$PROJECT_DIR$/my-target-be-model/src/main/java/entity/Role.java" />
         <option value="$PROJECT_DIR$/my-target-be-ejb/src/main/java/inject.java" />
-        <option value="$PROJECT_DIR$/my-target-be-ejb/pom.xml" />
         <option value="$PROJECT_DIR$/my-target-be-model/src/main/java/entity/Structure.java" />
         <option value="$PROJECT_DIR$/my-target-be-model/src/main/java/entity/PersonPostation.java" />
         <option value="$PROJECT_DIR$/my-target-be-model/src/main/java/entity/Postation.java" />
@@ -304,27 +251,31 @@
         <option value="$PROJECT_DIR$/my-target-be-ear/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/my-target-be-model/src/main/resources/META-INF/persistence.xml" />
-        <option value="$PROJECT_DIR$/my-target-be-model/pom.xml" />
-        <option value="$PROJECT_DIR$/my-target-be-commons/src/main/java/exceptions/BeException.java" />
-        <option value="$PROJECT_DIR$/my-target-be-model/src/main/java/dao/BaseDao.java" />
-        <option value="$PROJECT_DIR$/my-target-be-model/src/main/java/dao/BaseDaoImp.java" />
-        <option value="$PROJECT_DIR$/my-target-be-model/src/main/java/dao/PersonDao.java" />
         <option value="$PROJECT_DIR$/my-target-be-api/src/main/java/PersonServiceLocal.java" />
         <option value="$PROJECT_DIR$/my-target-be-ejb/src/main/java/PersonService.java" />
         <option value="$PROJECT_DIR$/my-target-be-api/src/main/java/dto/RoleDto.java" />
         <option value="$PROJECT_DIR$/my-target-be-ejb/src/main/java/service.java" />
         <option value="$PROJECT_DIR$/my-target-be-ejb/src/main/java/converter/SuperConverter.java" />
-        <option value="$PROJECT_DIR$/my-target-be-api/src/main/java/service/PersonServiceLocal.java" />
         <option value="$PROJECT_DIR$/my-target-be-ejb/src/main/java/converter/RoleConverter.java" />
         <option value="$PROJECT_DIR$/my-target-be-model/src/main/java/entity/Person.java" />
         <option value="$PROJECT_DIR$/my-target-be-api/src/main/java/dto/PersonDto.java" />
         <option value="$PROJECT_DIR$/my-target-be-ejb/src/main/java/converter/PersonConverter.java" />
-        <option value="$PROJECT_DIR$/my-target-be-ejb/src/main/java/service/BaseService.java" />
-        <option value="$PROJECT_DIR$/my-target-be-web/pom.xml" />
-        <option value="$PROJECT_DIR$/my-target-be-web/src/main/java/controller/PersonController.java" />
-        <option value="$PROJECT_DIR$/my-target-be-ejb/src/main/java/DefaultInterceptor.java" />
         <option value="$PROJECT_DIR$/my-target-be-ejb/src/main/java/annotation/DefaultInterceptor.java" />
+        <option value="$PROJECT_DIR$/my-target-be-commons/src/main/java/exceptions/BeException.java" />
+        <option value="$PROJECT_DIR$/my-target-be-api/src/main/java/service/PersonServiceLocal.java" />
+        <option value="$PROJECT_DIR$/my-target-be-model/src/main/java/dao/BaseDaoImp.java" />
+        <option value="$PROJECT_DIR$/my-target-be-model/pom.xml" />
+        <option value="$PROJECT_DIR$/my-target-be-web/pom.xml" />
+        <option value="$PROJECT_DIR$/my-target-be-ejb/pom.xml" />
+        <option value="$PROJECT_DIR$/my-target-be-api/pom.xml" />
+        <option value="$PROJECT_DIR$/my-target-be-ejb/src/main/java/service/BaseService.java" />
+        <option value="$PROJECT_DIR$/my-target-be-model/src/main/java/dao/BaseDao.java" />
+        <option value="$PROJECT_DIR$/my-target-be-model/src/main/java/dao/PersonDao.java" />
+        <option value="$PROJECT_DIR$/my-target-be-web/src/main/java/controller/PersonController.java" />
         <option value="$PROJECT_DIR$/my-target-be-ejb/src/main/java/service/PersonService.java" />
+        <option value="$PROJECT_DIR$/my-target-be-api/src/main/java/annotation/DefaultInterceptor.java" />
+        <option value="$PROJECT_DIR$/my-target-be-ejb/src/main/java/DefaultInterceptor.java" />
+        <option value="$PROJECT_DIR$/my-target-be-ejb/src/main/resources/beans.xml" />
       </list>
     </option>
   </component>
@@ -401,8 +352,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -431,68 +382,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="my-target-be-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my-target-be" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my-target-be" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my-target-be-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my-target-be" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my-target-be" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my-target-be-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my-target-be" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my-target-be" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="my-target-be-ejb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -534,6 +423,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -560,42 +453,12 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my-target-be" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my-target-be" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my-target-be-ejb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="annotation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -604,16 +467,19 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$USER_HOME$/Documents/babel/babel-it-be" />
-    <property name="SearchEverywhereHistoryKey" value="based&#9;FILE&#9;file:///Users/simon/IdeaProjects/MyTarget/my-target-be/my-target-be-model/src/main/java/dao/BaseDaoImp.java&#10;Person&#9;FILE&#9;file:///Users/simon/IdeaProjects/MyTarget/my-target-be/my-target-be-model/src/main/java/entity/Person.java&#10;ROle&#9;FILE&#9;file:///Users/simon/IdeaProjects/MyTarget/my-target-be/my-target-be-model/src/main/java/entity/Role.java&#10;Perso&#9;FILE&#9;file:///Users/simon/IdeaProjects/MyTarget/my-target-be/my-target-be-model/src/main/java/entity/Person.java&#10;persis&#9;FILE&#9;file:///Users/simon/IdeaProjects/MyTarget/my-target-be/my-target-be-model/src/main/resources/META-INF/persistence.xml&#10;pom&#9;FILE&#9;file:///Users/simon/IdeaProjects/MyTarget/my-target-be/my-target-be-ear/pom.xml&#10;p&#9;FILE&#9;file:///Users/simon/IdeaProjects/MyTarget/my-target-be/my-target-be-model/src/main/resources/META-INF/persistence.xml" />
+    <property name="SearchEverywhereHistoryKey" value="Be&#9;FILE&#9;file:///Users/simon/IdeaProjects/MyTarget/my-target-be/my-target-be-commons/src/main/java/exceptions/BeException.java&#10;based&#9;FILE&#9;file:///Users/simon/IdeaProjects/MyTarget/my-target-be/my-target-be-model/src/main/java/dao/BaseDaoImp.java&#10;Person&#9;FILE&#9;file:///Users/simon/IdeaProjects/MyTarget/my-target-be/my-target-be-model/src/main/java/entity/Person.java&#10;ROle&#9;FILE&#9;file:///Users/simon/IdeaProjects/MyTarget/my-target-be/my-target-be-model/src/main/java/entity/Role.java&#10;Perso&#9;FILE&#9;file:///Users/simon/IdeaProjects/MyTarget/my-target-be/my-target-be-model/src/main/java/entity/Person.java&#10;persis&#9;FILE&#9;file:///Users/simon/IdeaProjects/MyTarget/my-target-be/my-target-be-model/src/main/resources/META-INF/persistence.xml&#10;pom&#9;FILE&#9;file:///Users/simon/IdeaProjects/MyTarget/my-target-be/my-target-be-ear/pom.xml&#10;p&#9;FILE&#9;file:///Users/simon/IdeaProjects/MyTarget/my-target-be/my-target-be-model/src/main/resources/META-INF/persistence.xml" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/my-target-be-api/src/main/java/" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/my-target-be-model/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PersonController">
+  <component name="RunManager" selected="Application.PersonService">
     <configuration default="false" name="PersonController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -631,6 +497,26 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="my-target-be-web" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="PersonService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="service.PersonService" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="my-target-be-ejb" />
       <envs />
       <method />
     </configuration>
@@ -945,12 +831,14 @@
       <envs />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Application.PersonController" />
+      <item index="1" class="java.lang.String" itemvalue="Application.PersonService" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.PersonController" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.PersonService" />
+        <item index="1" class="java.lang.String" itemvalue="Application.PersonController" />
       </list>
     </recent_temporary>
   </component>
@@ -1019,7 +907,27 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/my-target-be-web/src/main/java/controller/PersonController.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/my-target-be-ejb/src/main/java/service/PersonService.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/my-target-be-ejb/src/main/java/service/PersonService.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1028,48 +936,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/my-target-be-ejb/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-target-be-model/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-target-be-commons/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-target-be-ear/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-target-be-web/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-target-be-web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-target-be-model/src/main/java/entity/IEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1077,28 +943,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-target-be-commons/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-target-be-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-target-be-ejb/src/main/java/inject.java" />
-    <entry file="file://$PROJECT_DIR$/my-target-be-ejb/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-target-be-model/src/main/java/entity/Structure.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
@@ -1155,13 +1000,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-target-be-ear/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="59" column="10" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final-sources.jar!/javax/persistence/EntityManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1510">
@@ -1173,13 +1011,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-target-be-model/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -1239,21 +1070,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-target-be-commons/src/main/java/exceptions/BeException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-target-be-model/src/main/java/dao/BaseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="40" column="104" selection-start-line="40" selection-start-column="104" selection-end-line="40" selection-end-column="104" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-target-be-model/src/main/java/entity/Role.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
@@ -1274,7 +1090,7 @@
         <state relative-caret-position="270">
           <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1284,7 +1100,7 @@
         <state relative-caret-position="255">
           <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1293,12 +1109,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1380">
           <caret line="129" column="26" selection-start-line="129" selection-start-column="26" selection-end-line="129" selection-end-column="26" />
-          <folding>
-            <element signature="e#2575#2576#0" expanded="false" />
-            <element signature="e#2623#2624#0" expanded="false" />
-            <element signature="e#2679#2680#0" expanded="false" />
-            <element signature="e#2727#2728#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1306,114 +1116,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-          <folding>
-            <element signature="e#379#380#0" expanded="false" />
-            <element signature="e#409#410#0" expanded="false" />
-            <element signature="e#456#457#0" expanded="false" />
-            <element signature="e#494#495#0" expanded="false" />
-            <element signature="e#530#531#0" expanded="false" />
-            <element signature="e#562#563#0" expanded="false" />
-            <element signature="e#612#613#0" expanded="false" />
-            <element signature="e#654#655#0" expanded="false" />
-            <element signature="e#691#692#0" expanded="false" />
-            <element signature="e#724#725#0" expanded="false" />
-            <element signature="e#776#777#0" expanded="false" />
-            <element signature="e#820#821#0" expanded="false" />
-            <element signature="e#851#852#0" expanded="false" />
-            <element signature="e#878#879#0" expanded="false" />
-            <element signature="e#918#919#0" expanded="false" />
-            <element signature="e#950#951#0" expanded="false" />
-            <element signature="e#986#987#0" expanded="false" />
-            <element signature="e#1017#1018#0" expanded="false" />
-            <element signature="e#1066#1067#0" expanded="false" />
-            <element signature="e#1106#1107#0" expanded="false" />
-            <element signature="e#1141#1142#0" expanded="false" />
-            <element signature="e#1172#1173#0" expanded="false" />
-            <element signature="e#1220#1221#0" expanded="false" />
-            <element signature="e#1260#1261#0" expanded="false" />
-            <element signature="e#1295#1296#0" expanded="false" />
-            <element signature="e#1326#1327#0" expanded="false" />
-            <element signature="e#1374#1375#0" expanded="false" />
-            <element signature="e#1414#1415#0" expanded="false" />
-            <element signature="e#1456#1457#0" expanded="false" />
-            <element signature="e#1491#1492#0" expanded="false" />
-            <element signature="e#1550#1551#0" expanded="false" />
-            <element signature="e#1598#1599#0" expanded="false" />
-            <element signature="e#1630#1631#0" expanded="false" />
-            <element signature="e#1657#1658#0" expanded="false" />
-            <element signature="e#1698#1699#0" expanded="false" />
-            <element signature="e#1730#1731#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my-target-be-ejb/src/main/java/converter/PersonConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="315">
           <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#865#866#0" expanded="true" />
-            <element signature="e#929#930#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-target-be-model/src/main/java/dao/BaseDaoImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1425">
-          <caret line="112" column="5" selection-start-line="112" selection-start-column="5" selection-end-line="112" selection-end-column="5" />
-          <folding>
-            <element signature="e#789#790#0" expanded="false" />
-            <element signature="e#846#847#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#865#866#0" expanded="false" />
             <element signature="e#929#930#0" expanded="false" />
-            <element signature="e#987#988#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="87" column="25" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-target-be-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-target-be-model/src/main/java/dao/PersonDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-target-be-web/src/main/java/controller/PersonController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-target-be-api/src/main/java/service/PersonServiceLocal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1426,30 +1139,186 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-target-be-ejb/src/main/java/annotation/DefaultInterceptor.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/spec/javax/ejb/jboss-ejb-api_3.1_spec/1.0.2.Final/jboss-ejb-api_3.1_spec-1.0.2.Final.jar!/javax/ejb/TransactionAttribute.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-target-be-ejb/src/main/java/service/PersonService.java">
+    <entry file="file://$PROJECT_DIR$/my-target-be-commons/src/main/java/exceptions/BeException.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="345">
+          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-target-be-ear/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="875">
+          <caret line="59" column="10" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-target-be-commons/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-target-be-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-target-be-model/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-target-be-ejb/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="35" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-target-be-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my-target-be-ejb/src/main/java/service/BaseService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-target-be-api/src/main/java/service/PersonServiceLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/hk2/external/javax.inject/2.5.0-b30/javax.inject-2.5.0-b30.jar!/javax/inject/Named.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#403#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/hk2/external/javax.inject/2.5.0-b30/javax.inject-2.5.0-b30-sources.jar!/javax/inject/Named.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-target-be-model/src/main/java/dao/BaseDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-target-be-model/src/main/java/dao/BaseDaoImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-target-be-web/src/main/java/controller/PersonController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-target-be-api/src/main/java/annotation/DefaultInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-target-be-model/src/main/java/dao/PersonDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-target-be-ejb/src/main/java/service/PersonService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/interceptor/jboss-interceptor-api/1.1/jboss-interceptor-api-1.1.jar!/javax/interceptor/InvocationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-target-be-ejb/src/main/resources/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-target-be-ejb/src/main/java/DefaultInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1508,7 +1377,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>my-target-be-commons</last-edited>
+          <last-edited>my-target-be-ejb</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

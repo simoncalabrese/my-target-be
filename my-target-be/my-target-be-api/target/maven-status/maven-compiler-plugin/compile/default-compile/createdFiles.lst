@@ -1,3 +1,4 @@
 dto/PersonDto.class
 service/PersonServiceLocal.class
 dto/RoleDto.class
+annotation/DefaultInterceptor.class

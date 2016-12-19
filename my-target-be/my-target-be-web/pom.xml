@@ -14,12 +14,12 @@
         <dependency>
             <groupId>my-target-be</groupId>
             <artifactId>my-target-be-api</artifactId>
-            <scope>provided</scope>
+            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>my-target-be</groupId>
             <artifactId>my-target-be-commons</artifactId>
-            <scope>provided</scope>
+            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.glassfish.hk2.external</groupId>

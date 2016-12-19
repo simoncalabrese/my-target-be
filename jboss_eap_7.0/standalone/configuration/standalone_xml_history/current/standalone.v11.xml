@@ -427,22 +427,22 @@
 
     <deployments>
         <deployment name="my-target-be-ejb-1.0-SNAPSHOT.jar" runtime-name="my-target-be-ejb-1.0-SNAPSHOT.jar">
-            <content sha1="7f04cc917185520a8b17fb96fd58a303940b8aa5"/>
+            <content sha1="08d7a6f4bf526bf4e311e15ac67613c9eaf26e99"/>
         </deployment>
         <deployment name="my-target-be-ear-1.0-SNAPSHOT.ear" runtime-name="my-target-be-ear-1.0-SNAPSHOT.ear">
-            <content sha1="29937a32d7936a91ee3e4df4a2acc22edceadff4"/>
-        </deployment>
-        <deployment name="my-target-be-commons-1.0-SNAPSHOT.jar" runtime-name="my-target-be-commons-1.0-SNAPSHOT.jar">
-            <content sha1="ac419d2b1e7620d0d86e8e2268fc5a7e108b696c"/>
-        </deployment>
-        <deployment name="my-target-be-api-1.0-SNAPSHOT.jar" runtime-name="my-target-be-api-1.0-SNAPSHOT.jar">
-            <content sha1="a77003e6eda3c19f34504b88acbf9b4a97727a8b"/>
+            <content sha1="1d94b0487acb9725bfac0bdf9c61d89b6bee059e"/>
         </deployment>
         <deployment name="my-target-be-web.war" runtime-name="my-target-be-web.war">
-            <content sha1="4f141d0faaefd645dc1839d2d94efceb9e4e8061"/>
+            <content sha1="51052f9f7e29eef2b35e7b9b0dd2477a5a2544d5"/>
         </deployment>
         <deployment name="my-target-be-model-1.0-SNAPSHOT.jar" runtime-name="my-target-be-model-1.0-SNAPSHOT.jar">
-            <content sha1="e99c20ecb04c44d113dd537311caea97f0f92740"/>
+            <content sha1="6533234b60891fb0ac5cb41e5771f04d26bcef5d"/>
+        </deployment>
+        <deployment name="my-target-be-commons-1.0-SNAPSHOT.jar" runtime-name="my-target-be-commons-1.0-SNAPSHOT.jar">
+            <content sha1="98427e09634a958d22e94d2457b9148f4b55c562"/>
+        </deployment>
+        <deployment name="my-target-be-api-1.0-SNAPSHOT.jar" runtime-name="my-target-be-api-1.0-SNAPSHOT.jar">
+            <content sha1="de514c15069b9396c55392701fc57196997a3ab8"/>
         </deployment>
     </deployments>
 </server>

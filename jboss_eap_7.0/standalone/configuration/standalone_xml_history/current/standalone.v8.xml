@@ -426,23 +426,23 @@
     </socket-binding-group>
 
     <deployments>
-        <deployment name="my-target-be-api-1.0-SNAPSHOT.jar" runtime-name="my-target-be-api-1.0-SNAPSHOT.jar">
-            <content sha1="6dc991b31d703fcc11041af7ec03d6e1777a8e1d"/>
-        </deployment>
-        <deployment name="my-target-be-web.war" runtime-name="my-target-be-web.war">
-            <content sha1="54177ab317b5754251a04ba4cd5aa0cd15cf3831"/>
-        </deployment>
-        <deployment name="my-target-be-model-1.0-SNAPSHOT.jar" runtime-name="my-target-be-model-1.0-SNAPSHOT.jar">
-            <content sha1="c34ea51c76cfb6d86458f652c529f38fbddef8fb"/>
-        </deployment>
         <deployment name="my-target-be-ejb-1.0-SNAPSHOT.jar" runtime-name="my-target-be-ejb-1.0-SNAPSHOT.jar">
-            <content sha1="7f04cc917185520a8b17fb96fd58a303940b8aa5"/>
+            <content sha1="08d7a6f4bf526bf4e311e15ac67613c9eaf26e99"/>
         </deployment>
         <deployment name="my-target-be-ear-1.0-SNAPSHOT.ear" runtime-name="my-target-be-ear-1.0-SNAPSHOT.ear">
-            <content sha1="29937a32d7936a91ee3e4df4a2acc22edceadff4"/>
+            <content sha1="1d94b0487acb9725bfac0bdf9c61d89b6bee059e"/>
+        </deployment>
+        <deployment name="my-target-be-model-1.0-SNAPSHOT.jar" runtime-name="my-target-be-model-1.0-SNAPSHOT.jar">
+            <content sha1="bf813b807971a0ff7845550ea591a06a247da609"/>
         </deployment>
         <deployment name="my-target-be-commons-1.0-SNAPSHOT.jar" runtime-name="my-target-be-commons-1.0-SNAPSHOT.jar">
-            <content sha1="ac419d2b1e7620d0d86e8e2268fc5a7e108b696c"/>
+            <content sha1="a8f0cb9a05c5fb7a36a76629159455e6c0a80cba"/>
+        </deployment>
+        <deployment name="my-target-be-api-1.0-SNAPSHOT.jar" runtime-name="my-target-be-api-1.0-SNAPSHOT.jar">
+            <content sha1="f44fb086cf8c787bb0f0541243abadfa84c1f68e"/>
+        </deployment>
+        <deployment name="my-target-be-web.war" runtime-name="my-target-be-web.war">
+            <content sha1="51052f9f7e29eef2b35e7b9b0dd2477a5a2544d5"/>
         </deployment>
     </deployments>
 </server>

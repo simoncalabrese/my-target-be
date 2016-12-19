@@ -1,27 +1,25 @@
 package controller;
 
+import annotation.DefaultInterceptor;
 import dto.PersonDto;
-import exceptions.BeException;
 import service.PersonServiceLocal;
 
+import javax.annotation.PostConstruct;
 import javax.ejb.EJB;
-import javax.inject.Inject;
 import java.util.Optional;
 
 /**
  * Created by simon on 18/12/16.
  */
+@DefaultInterceptor
 public class PersonController {
 
-    @Inject
+    @EJB
     private PersonServiceLocal personService;
 
-    public PersonDto getPersonByCod(final String string) throws BeException {
+    public PersonDto getPersonByCod(final String string){
         return personService.getPersonByCod(Optional.ofNullable(string));
     }
 
-    public static void main(String[] rgs) throws BeException {
-        PersonController p = new PersonController();
-        p.getPersonByCod("CLB");
-    }
+
 }

@@ -3,9 +3,9 @@ package service;
 import converter.SuperConverter;
 import dao.BaseDao;
 
+import javax.interceptor.ExcludeDefaultInterceptors;
 import java.util.Collection;
 import java.util.function.Function;
-import javax.interceptor.ExcludeDefaultInterceptors;
 
 /**
  * Created by simon on 18/12/16.

@@ -1,6 +1,6 @@
 /Users/simon/IdeaProjects/MyTarget/my-target-be/my-target-be-ejb/src/main/java/service/BaseService.java
 /Users/simon/IdeaProjects/MyTarget/my-target-be/my-target-be-ejb/src/main/java/converter/PersonConverter.java
 /Users/simon/IdeaProjects/MyTarget/my-target-be/my-target-be-ejb/src/main/java/converter/SuperConverter.java
-/Users/simon/IdeaProjects/MyTarget/my-target-be/my-target-be-ejb/src/main/java/annotation/DefaultInterceptor.java
+/Users/simon/IdeaProjects/MyTarget/my-target-be/my-target-be-ejb/src/main/java/DefaultInterceptor.java
 /Users/simon/IdeaProjects/MyTarget/my-target-be/my-target-be-ejb/src/main/java/service/PersonService.java
 /Users/simon/IdeaProjects/MyTarget/my-target-be/my-target-be-ejb/src/main/java/converter/RoleConverter.java
