@@ -8,6 +8,16 @@
 		<!-- If you are running in a production environment, add a managed data
 			source, the example data source is just for proofs of concept! -->
 		<jta-data-source>java:jboss/MySqlDS</jta-data-source>
+		<class>entity.Activation</class>
+		<class>entity.PaymentType</class>
+		<class>entity.Person</class>
+		<class>entity.PersonPostation</class>
+		<class>entity.Postation</class>
+		<class>entity.Promotion</class>
+		<class>entity.Role</class>
+		<class>entity.Structure</class>
+		<class>entity.Target</class>
+
 
 		<properties>
 			<!-- Properties for Hibernate -->

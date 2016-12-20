@@ -427,16 +427,16 @@
 
     <deployments>
         <deployment name="my-target-be-commons-1.0-SNAPSHOT.jar" runtime-name="my-target-be-commons-1.0-SNAPSHOT.jar">
-            <content sha1="b85694eb13bf64eb68e33386aa4b850cfecddcf5"/>
+            <content sha1="eb2c4d5093ea068aab2c4abe1df25bee863af3c4"/>
         </deployment>
         <deployment name="my-target-be-api-1.0-SNAPSHOT.jar" runtime-name="my-target-be-api-1.0-SNAPSHOT.jar">
-            <content sha1="1200ab0e72d7e29e94a8cbe0eeface051cd42be9"/>
+            <content sha1="4a28b152759062e12f74d9cab432b5a2a1384153"/>
         </deployment>
         <deployment name="my-target-be-web.war" runtime-name="my-target-be-web.war">
-            <content sha1="c3365eefb801c3216efa61dfc2355b8400dbd130"/>
+            <content sha1="4927a1b4e7b35576f37cf1b90acf43b7697f3618"/>
         </deployment>
         <deployment name="my-target-be-model-1.0-SNAPSHOT.jar" runtime-name="my-target-be-model-1.0-SNAPSHOT.jar">
-            <content sha1="30676300fe5b574cba33df492d25ede7c9e22768"/>
+            <content sha1="4eaad88962827841412b69d32a3638c4526e30bd"/>
         </deployment>
     </deployments>
 </server>

@@ -796,3 +796,416 @@ WFLYCTL0186:   Services which failed to start:      service jboss.deployment.uni
 2016-12-20 18:07:39,155 INFO  [org.hibernate.tool.hbm2ddl.SchemaValidator] (ServerService Thread Pool -- 75) HHH000229: Running schema validator
 2016-12-20 18:07:39,258 INFO  [org.jboss.as.server] (management-handler-thread - 12) WFLYSRV0016: Replaced deployment "my-target-be-model-1.0-SNAPSHOT.jar" with deployment "my-target-be-model-1.0-SNAPSHOT.jar"
 2016-12-20 18:07:39,259 INFO  [org.jboss.as.repository] (management-handler-thread - 12) WFLYDR0002: Content removed from location /Users/simon/IdeaProjects/MyTarget/jboss_eap_7.0/standalone/data/content/e1/8784311cafd97196dacc0b1168ca69f038698e/content
+2016-12-20 18:21:30,659 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 59) WFLYDR0009: Content /Users/simon/IdeaProjects/MyTarget/jboss_eap_7.0/standalone/data/content/5d/e700620d63f61a7f4b58ef52c7cdc8f32254b4 is obsolete and will be removed
+2016-12-20 18:21:30,661 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 59) WFLYDR0002: Content removed from location /Users/simon/IdeaProjects/MyTarget/jboss_eap_7.0/standalone/data/content/5d/e700620d63f61a7f4b58ef52c7cdc8f32254b4/content
+2016-12-20 20:02:03,889 INFO  [org.jboss.as.repository] (management-handler-thread - 16) WFLYDR0001: Content added at location /Users/simon/IdeaProjects/MyTarget/jboss_eap_7.0/standalone/data/content/87/5e23afab833e083a8ee3fea5aad1ce41f09e8e/content
+2016-12-20 20:02:03,895 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment my-target-be-commons-1.0-SNAPSHOT.jar (runtime-name: my-target-be-commons-1.0-SNAPSHOT.jar) in 4ms
+2016-12-20 20:02:03,896 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "my-target-be-commons-1.0-SNAPSHOT.jar" (runtime-name: "my-target-be-commons-1.0-SNAPSHOT.jar")
+2016-12-20 20:02:03,912 INFO  [org.jboss.as.server] (management-handler-thread - 16) WFLYSRV0016: Replaced deployment "my-target-be-commons-1.0-SNAPSHOT.jar" with deployment "my-target-be-commons-1.0-SNAPSHOT.jar"
+2016-12-20 20:02:03,912 INFO  [org.jboss.as.repository] (management-handler-thread - 16) WFLYDR0002: Content removed from location /Users/simon/IdeaProjects/MyTarget/jboss_eap_7.0/standalone/data/content/b8/5694eb13bf64eb68e33386aa4b850cfecddcf5/content
+2016-12-20 20:02:04,406 INFO  [org.jboss.as.repository] (management-handler-thread - 16) WFLYDR0001: Content added at location /Users/simon/IdeaProjects/MyTarget/jboss_eap_7.0/standalone/data/content/4c/0537fb5809cd8170303b31bbba12e31ff7f68d/content
+2016-12-20 20:02:04,412 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment my-target-be-api-1.0-SNAPSHOT.jar (runtime-name: my-target-be-api-1.0-SNAPSHOT.jar) in 3ms
+2016-12-20 20:02:04,412 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "my-target-be-api-1.0-SNAPSHOT.jar" (runtime-name: "my-target-be-api-1.0-SNAPSHOT.jar")
+2016-12-20 20:02:04,431 INFO  [org.jboss.as.server] (management-handler-thread - 16) WFLYSRV0016: Replaced deployment "my-target-be-api-1.0-SNAPSHOT.jar" with deployment "my-target-be-api-1.0-SNAPSHOT.jar"
+2016-12-20 20:02:04,431 INFO  [org.jboss.as.repository] (management-handler-thread - 16) WFLYDR0002: Content removed from location /Users/simon/IdeaProjects/MyTarget/jboss_eap_7.0/standalone/data/content/12/00ab0e72d7e29e94a8cbe0eeface051cd42be9/content
+2016-12-20 20:02:04,866 INFO  [org.jboss.as.repository] (management-handler-thread - 16) WFLYDR0001: Content added at location /Users/simon/IdeaProjects/MyTarget/jboss_eap_7.0/standalone/data/content/a0/9c8d4da3d92ac742b40bc0376d90ca8eb0fe2d/content
+2016-12-20 20:02:04,867 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 76) WFLYUT0022: Unregistered web context: /my-target-be-web
+2016-12-20 20:02:04,876 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0010: Stopping weld service for deployment my-target-be-web.war
+2016-12-20 20:02:04,889 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment my-target-be-web.war (runtime-name: my-target-be-web.war) in 21ms
+2016-12-20 20:02:04,890 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "my-target-be-web.war" (runtime-name: "my-target-be-web.war")
+2016-12-20 20:02:04,943 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment my-target-be-web.war
+2016-12-20 20:02:04,961 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0006: Starting Services for CDI deployment: my-target-be-web.war
+2016-12-20 20:02:04,963 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0009: Starting weld service for deployment my-target-be-web.war
+2016-12-20 20:02:05,044 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 79) WFLYUT0021: Registered web context: /my-target-be-web
+2016-12-20 20:02:05,051 INFO  [org.jboss.as.server] (management-handler-thread - 16) WFLYSRV0016: Replaced deployment "my-target-be-web.war" with deployment "my-target-be-web.war"
+2016-12-20 20:02:05,051 INFO  [org.jboss.as.repository] (management-handler-thread - 16) WFLYDR0002: Content removed from location /Users/simon/IdeaProjects/MyTarget/jboss_eap_7.0/standalone/data/content/c3/365eefb801c3216efa61dfc2355b8400dbd130/content
+2016-12-20 20:02:06,127 INFO  [org.jboss.as.repository] (management-handler-thread - 16) WFLYDR0001: Content added at location /Users/simon/IdeaProjects/MyTarget/jboss_eap_7.0/standalone/data/content/ef/c6b638678aeb5bee660af3115338449fe57c9f/content
+2016-12-20 20:02:06,131 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0010: Stopping weld service for deployment my-target-be-model-1.0-SNAPSHOT.jar
+2016-12-20 20:02:06,134 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 79) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'my-target-be-model-1.0-SNAPSHOT.jar#myTarget-db'
+2016-12-20 20:02:06,135 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 79) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'my-target-be-model-1.0-SNAPSHOT.jar#myTarget-db'
+2016-12-20 20:02:06,136 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment my-target-be-model-1.0-SNAPSHOT.jar (runtime-name: my-target-be-model-1.0-SNAPSHOT.jar) in 8ms
+2016-12-20 20:02:06,137 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "my-target-be-model-1.0-SNAPSHOT.jar" (runtime-name: "my-target-be-model-1.0-SNAPSHOT.jar")
+2016-12-20 20:02:06,148 INFO  [org.jboss.as.jpa] (MSC service thread 1-8) WFLYJPA0002: Read persistence.xml for myTarget-db
+2016-12-20 20:02:06,153 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment my-target-be-model-1.0-SNAPSHOT.jar
+2016-12-20 20:02:06,153 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 79) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'my-target-be-model-1.0-SNAPSHOT.jar#myTarget-db'
+2016-12-20 20:02:06,153 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 79) HHH000204: Processing PersistenceUnitInfo [
+	name: myTarget-db
+	...]
+2016-12-20 20:02:06,164 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0006: Starting Services for CDI deployment: my-target-be-model-1.0-SNAPSHOT.jar
+2016-12-20 20:02:06,165 INFO  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 79) HHH90000001: Found usage of deprecated setting for specifying Scanner [hibernate.ejb.resource_scanner]; use [hibernate.archive.scanner] instead
+2016-12-20 20:02:06,165 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0009: Starting weld service for deployment my-target-be-model-1.0-SNAPSHOT.jar
+2016-12-20 20:02:06,174 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 79) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'my-target-be-model-1.0-SNAPSHOT.jar#myTarget-db'
+2016-12-20 20:02:06,177 ERROR [stderr] (ServerService Thread Pool -- 79) Tue Dec 20 20:02:06 CET 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-12-20 20:02:06,181 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 79) HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-12-20 20:02:06,187 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 79) Envers integration enabled? : true
+2016-12-20 20:02:06,266 INFO  [org.hibernate.tool.hbm2ddl.SchemaValidator] (ServerService Thread Pool -- 79) HHH000229: Running schema validator
+2016-12-20 20:02:06,370 INFO  [org.jboss.as.server] (management-handler-thread - 16) WFLYSRV0016: Replaced deployment "my-target-be-model-1.0-SNAPSHOT.jar" with deployment "my-target-be-model-1.0-SNAPSHOT.jar"
+2016-12-20 20:02:06,371 INFO  [org.jboss.as.repository] (management-handler-thread - 16) WFLYDR0002: Content removed from location /Users/simon/IdeaProjects/MyTarget/jboss_eap_7.0/standalone/data/content/30/676300fe5b574cba33df492d25ede7c9e22768/content
+2016-12-20 20:02:07,285 INFO  [org.jboss.as.repository] (management-handler-thread - 16) WFLYDR0001: Content added at location /Users/simon/IdeaProjects/MyTarget/jboss_eap_7.0/standalone/data/content/c8/1c448960198cade497ad0bcc2da6ad91455392/content
+2016-12-20 20:02:07,286 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "my-target-be-ejb-1.0-SNAPSHOT.jar" (runtime-name: "my-target-be-ejb-1.0-SNAPSHOT.jar")
+2016-12-20 20:02:07,310 WARN  [org.jboss.modules] (MSC service thread 1-3) Failed to define class service.PersonService in Module "deployment.my-target-be-ejb-1.0-SNAPSHOT.jar:main" from Service Module Loader: java.lang.NoClassDefFoundError: Failed to link service/PersonService (Module "deployment.my-target-be-ejb-1.0-SNAPSHOT.jar:main" from Service Module Loader): service/PersonServiceLocal
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.jboss.modules.ModuleClassLoader.defineClass(ModuleClassLoader.java:446)
+	at org.jboss.modules.ModuleClassLoader.loadClassLocal(ModuleClassLoader.java:274)
+	at org.jboss.modules.ModuleClassLoader$1.loadClassLocal(ModuleClassLoader.java:78)
+	at org.jboss.modules.Module.loadModuleClass(Module.java:605)
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:190)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:363)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:351)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:93)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.jboss.as.ee.utils.ClassLoadingUtils.loadClass(ClassLoadingUtils.java:21)
+	at org.jboss.as.ee.utils.ClassLoadingUtils.loadClass(ClassLoadingUtils.java:14)
+	at org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.processComponentConfig(InterceptorAnnotationProcessor.java:84)
+	at org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.deploy(InterceptorAnnotationProcessor.java:76)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:147)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-12-20 20:02:07,311 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-3) MSC000001: Failed to start service jboss.deployment.unit."my-target-be-ejb-1.0-SNAPSHOT.jar".POST_MODULE: org.jboss.msc.service.StartException in service jboss.deployment.unit."my-target-be-ejb-1.0-SNAPSHOT.jar".POST_MODULE: WFLYSRV0153: Failed to process phase POST_MODULE of deployment "my-target-be-ejb-1.0-SNAPSHOT.jar"
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:154)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NoClassDefFoundError: Failed to link service/PersonService (Module "deployment.my-target-be-ejb-1.0-SNAPSHOT.jar:main" from Service Module Loader): service/PersonServiceLocal
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.jboss.modules.ModuleClassLoader.defineClass(ModuleClassLoader.java:446)
+	at org.jboss.modules.ModuleClassLoader.loadClassLocal(ModuleClassLoader.java:274)
+	at org.jboss.modules.ModuleClassLoader$1.loadClassLocal(ModuleClassLoader.java:78)
+	at org.jboss.modules.Module.loadModuleClass(Module.java:605)
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:190)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:363)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:351)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:93)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.jboss.as.ee.utils.ClassLoadingUtils.loadClass(ClassLoadingUtils.java:21)
+	at org.jboss.as.ee.utils.ClassLoadingUtils.loadClass(ClassLoadingUtils.java:14)
+	at org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.processComponentConfig(InterceptorAnnotationProcessor.java:84)
+	at org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.deploy(InterceptorAnnotationProcessor.java:76)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:147)
+	... 5 more
+
+2016-12-20 20:02:07,312 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 16) WFLYCTL0013: Operation ("add") failed - address: ([("deployment" => "my-target-be-ejb-1.0-SNAPSHOT.jar")]) - failure description: {"WFLYCTL0080: Failed services" => {"jboss.deployment.unit.\"my-target-be-ejb-1.0-SNAPSHOT.jar\".POST_MODULE" => "org.jboss.msc.service.StartException in service jboss.deployment.unit.\"my-target-be-ejb-1.0-SNAPSHOT.jar\".POST_MODULE: WFLYSRV0153: Failed to process phase POST_MODULE of deployment \"my-target-be-ejb-1.0-SNAPSHOT.jar\"
+    Caused by: java.lang.NoClassDefFoundError: Failed to link service/PersonService (Module \"deployment.my-target-be-ejb-1.0-SNAPSHOT.jar:main\" from Service Module Loader): service/PersonServiceLocal"}}
+2016-12-20 20:02:07,312 ERROR [org.jboss.as.server] (management-handler-thread - 16) WFLYSRV0021: Deploy of deployment "my-target-be-ejb-1.0-SNAPSHOT.jar" was rolled back with the following failure message: 
+{"WFLYCTL0080: Failed services" => {"jboss.deployment.unit.\"my-target-be-ejb-1.0-SNAPSHOT.jar\".POST_MODULE" => "org.jboss.msc.service.StartException in service jboss.deployment.unit.\"my-target-be-ejb-1.0-SNAPSHOT.jar\".POST_MODULE: WFLYSRV0153: Failed to process phase POST_MODULE of deployment \"my-target-be-ejb-1.0-SNAPSHOT.jar\"
+    Caused by: java.lang.NoClassDefFoundError: Failed to link service/PersonService (Module \"deployment.my-target-be-ejb-1.0-SNAPSHOT.jar:main\" from Service Module Loader): service/PersonServiceLocal"}}
+2016-12-20 20:02:07,313 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment my-target-be-ejb-1.0-SNAPSHOT.jar (runtime-name: my-target-be-ejb-1.0-SNAPSHOT.jar) in 0ms
+2016-12-20 20:02:07,314 INFO  [org.jboss.as.controller] (management-handler-thread - 16) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service jboss.deployment.unit."my-target-be-ejb-1.0-SNAPSHOT.jar".POST_MODULE
+
+2016-12-20 20:09:03,287 INFO  [org.jboss.as.repository] (management-handler-thread - 20) WFLYDR0001: Content added at location /Users/simon/IdeaProjects/MyTarget/jboss_eap_7.0/standalone/data/content/62/15c31a08dd2be8f35c531c1dc35c6580066a65/content
+2016-12-20 20:09:03,290 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment my-target-be-commons-1.0-SNAPSHOT.jar (runtime-name: my-target-be-commons-1.0-SNAPSHOT.jar) in 2ms
+2016-12-20 20:09:03,291 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "my-target-be-commons-1.0-SNAPSHOT.jar" (runtime-name: "my-target-be-commons-1.0-SNAPSHOT.jar")
+2016-12-20 20:09:03,305 INFO  [org.jboss.as.server] (management-handler-thread - 20) WFLYSRV0016: Replaced deployment "my-target-be-commons-1.0-SNAPSHOT.jar" with deployment "my-target-be-commons-1.0-SNAPSHOT.jar"
+2016-12-20 20:09:03,306 INFO  [org.jboss.as.repository] (management-handler-thread - 20) WFLYDR0002: Content removed from location /Users/simon/IdeaProjects/MyTarget/jboss_eap_7.0/standalone/data/content/87/5e23afab833e083a8ee3fea5aad1ce41f09e8e/content
+2016-12-20 20:09:03,783 INFO  [org.jboss.as.repository] (management-handler-thread - 20) WFLYDR0001: Content added at location /Users/simon/IdeaProjects/MyTarget/jboss_eap_7.0/standalone/data/content/84/8e0397052bf78e36f89808010558eeede0ec61/content
+2016-12-20 20:09:03,787 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment my-target-be-api-1.0-SNAPSHOT.jar (runtime-name: my-target-be-api-1.0-SNAPSHOT.jar) in 3ms
+2016-12-20 20:09:03,788 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "my-target-be-api-1.0-SNAPSHOT.jar" (runtime-name: "my-target-be-api-1.0-SNAPSHOT.jar")
+2016-12-20 20:09:03,804 INFO  [org.jboss.as.server] (management-handler-thread - 20) WFLYSRV0016: Replaced deployment "my-target-be-api-1.0-SNAPSHOT.jar" with deployment "my-target-be-api-1.0-SNAPSHOT.jar"
+2016-12-20 20:09:03,805 INFO  [org.jboss.as.repository] (management-handler-thread - 20) WFLYDR0002: Content removed from location /Users/simon/IdeaProjects/MyTarget/jboss_eap_7.0/standalone/data/content/4c/0537fb5809cd8170303b31bbba12e31ff7f68d/content
+2016-12-20 20:09:04,253 INFO  [org.jboss.as.repository] (management-handler-thread - 20) WFLYDR0001: Content added at location /Users/simon/IdeaProjects/MyTarget/jboss_eap_7.0/standalone/data/content/ad/07df516c573ca15f07979b0fede7359a2c0905/content
+2016-12-20 20:09:04,254 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 80) WFLYUT0022: Unregistered web context: /my-target-be-web
+2016-12-20 20:09:04,261 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0010: Stopping weld service for deployment my-target-be-web.war
+2016-12-20 20:09:04,275 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment my-target-be-web.war (runtime-name: my-target-be-web.war) in 21ms
+2016-12-20 20:09:04,276 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "my-target-be-web.war" (runtime-name: "my-target-be-web.war")
+2016-12-20 20:09:04,313 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment my-target-be-web.war
+2016-12-20 20:09:04,332 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0006: Starting Services for CDI deployment: my-target-be-web.war
+2016-12-20 20:09:04,334 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0009: Starting weld service for deployment my-target-be-web.war
+2016-12-20 20:09:04,396 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 83) WFLYUT0021: Registered web context: /my-target-be-web
+2016-12-20 20:09:04,403 INFO  [org.jboss.as.server] (management-handler-thread - 20) WFLYSRV0016: Replaced deployment "my-target-be-web.war" with deployment "my-target-be-web.war"
+2016-12-20 20:09:04,403 INFO  [org.jboss.as.repository] (management-handler-thread - 20) WFLYDR0002: Content removed from location /Users/simon/IdeaProjects/MyTarget/jboss_eap_7.0/standalone/data/content/a0/9c8d4da3d92ac742b40bc0376d90ca8eb0fe2d/content
+2016-12-20 20:09:05,296 INFO  [org.jboss.as.repository] (management-handler-thread - 20) WFLYDR0001: Content added at location /Users/simon/IdeaProjects/MyTarget/jboss_eap_7.0/standalone/data/content/cc/bb1f1a6bba93db644d063045bb2db9514b2c82/content
+2016-12-20 20:09:05,300 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0010: Stopping weld service for deployment my-target-be-model-1.0-SNAPSHOT.jar
+2016-12-20 20:09:05,302 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 83) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'my-target-be-model-1.0-SNAPSHOT.jar#myTarget-db'
+2016-12-20 20:09:05,303 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 83) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'my-target-be-model-1.0-SNAPSHOT.jar#myTarget-db'
+2016-12-20 20:09:05,307 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment my-target-be-model-1.0-SNAPSHOT.jar (runtime-name: my-target-be-model-1.0-SNAPSHOT.jar) in 9ms
+2016-12-20 20:09:05,308 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "my-target-be-model-1.0-SNAPSHOT.jar" (runtime-name: "my-target-be-model-1.0-SNAPSHOT.jar")
+2016-12-20 20:09:05,321 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) WFLYJPA0002: Read persistence.xml for myTarget-db
+2016-12-20 20:09:05,327 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 83) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'my-target-be-model-1.0-SNAPSHOT.jar#myTarget-db'
+2016-12-20 20:09:05,327 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment my-target-be-model-1.0-SNAPSHOT.jar
+2016-12-20 20:09:05,327 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 83) HHH000204: Processing PersistenceUnitInfo [
+	name: myTarget-db
+	...]
+2016-12-20 20:09:05,330 INFO  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 83) HHH90000001: Found usage of deprecated setting for specifying Scanner [hibernate.ejb.resource_scanner]; use [hibernate.archive.scanner] instead
+2016-12-20 20:09:05,331 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0006: Starting Services for CDI deployment: my-target-be-model-1.0-SNAPSHOT.jar
+2016-12-20 20:09:05,332 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0009: Starting weld service for deployment my-target-be-model-1.0-SNAPSHOT.jar
+2016-12-20 20:09:05,339 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 83) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'my-target-be-model-1.0-SNAPSHOT.jar#myTarget-db'
+2016-12-20 20:09:05,341 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 83) HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-12-20 20:09:05,343 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 83) Envers integration enabled? : true
+2016-12-20 20:09:05,423 INFO  [org.hibernate.tool.hbm2ddl.SchemaValidator] (ServerService Thread Pool -- 83) HHH000229: Running schema validator
+2016-12-20 20:09:05,517 INFO  [org.jboss.as.server] (management-handler-thread - 20) WFLYSRV0016: Replaced deployment "my-target-be-model-1.0-SNAPSHOT.jar" with deployment "my-target-be-model-1.0-SNAPSHOT.jar"
+2016-12-20 20:09:05,517 INFO  [org.jboss.as.repository] (management-handler-thread - 20) WFLYDR0002: Content removed from location /Users/simon/IdeaProjects/MyTarget/jboss_eap_7.0/standalone/data/content/ef/c6b638678aeb5bee660af3115338449fe57c9f/content
+2016-12-20 20:09:06,357 INFO  [org.jboss.as.repository] (management-handler-thread - 20) WFLYDR0001: Content added at location /Users/simon/IdeaProjects/MyTarget/jboss_eap_7.0/standalone/data/content/72/4d47545c8b0b0e2a23bd723470ce9fc5295d2d/content
+2016-12-20 20:09:06,358 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "my-target-be-ejb-1.0-SNAPSHOT.jar" (runtime-name: "my-target-be-ejb-1.0-SNAPSHOT.jar")
+2016-12-20 20:09:06,363 WARN  [org.jboss.modules] (MSC service thread 1-8) Failed to define class service.PersonService in Module "deployment.my-target-be-ejb-1.0-SNAPSHOT.jar:main" from Service Module Loader: java.lang.NoClassDefFoundError: Failed to link service/PersonService (Module "deployment.my-target-be-ejb-1.0-SNAPSHOT.jar:main" from Service Module Loader): service/PersonServiceLocal
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.jboss.modules.ModuleClassLoader.defineClass(ModuleClassLoader.java:446)
+	at org.jboss.modules.ModuleClassLoader.loadClassLocal(ModuleClassLoader.java:274)
+	at org.jboss.modules.ModuleClassLoader$1.loadClassLocal(ModuleClassLoader.java:78)
+	at org.jboss.modules.Module.loadModuleClass(Module.java:605)
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:190)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:363)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:351)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:93)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.jboss.as.ee.utils.ClassLoadingUtils.loadClass(ClassLoadingUtils.java:21)
+	at org.jboss.as.ee.utils.ClassLoadingUtils.loadClass(ClassLoadingUtils.java:14)
+	at org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.processComponentConfig(InterceptorAnnotationProcessor.java:84)
+	at org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.deploy(InterceptorAnnotationProcessor.java:76)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:147)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-12-20 20:09:06,363 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-8) MSC000001: Failed to start service jboss.deployment.unit."my-target-be-ejb-1.0-SNAPSHOT.jar".POST_MODULE: org.jboss.msc.service.StartException in service jboss.deployment.unit."my-target-be-ejb-1.0-SNAPSHOT.jar".POST_MODULE: WFLYSRV0153: Failed to process phase POST_MODULE of deployment "my-target-be-ejb-1.0-SNAPSHOT.jar"
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:154)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NoClassDefFoundError: Failed to link service/PersonService (Module "deployment.my-target-be-ejb-1.0-SNAPSHOT.jar:main" from Service Module Loader): service/PersonServiceLocal
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.jboss.modules.ModuleClassLoader.defineClass(ModuleClassLoader.java:446)
+	at org.jboss.modules.ModuleClassLoader.loadClassLocal(ModuleClassLoader.java:274)
+	at org.jboss.modules.ModuleClassLoader$1.loadClassLocal(ModuleClassLoader.java:78)
+	at org.jboss.modules.Module.loadModuleClass(Module.java:605)
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:190)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:363)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:351)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:93)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.jboss.as.ee.utils.ClassLoadingUtils.loadClass(ClassLoadingUtils.java:21)
+	at org.jboss.as.ee.utils.ClassLoadingUtils.loadClass(ClassLoadingUtils.java:14)
+	at org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.processComponentConfig(InterceptorAnnotationProcessor.java:84)
+	at org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.deploy(InterceptorAnnotationProcessor.java:76)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:147)
+	... 5 more
+
+2016-12-20 20:09:06,364 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 20) WFLYCTL0013: Operation ("add") failed - address: ([("deployment" => "my-target-be-ejb-1.0-SNAPSHOT.jar")]) - failure description: {"WFLYCTL0080: Failed services" => {"jboss.deployment.unit.\"my-target-be-ejb-1.0-SNAPSHOT.jar\".POST_MODULE" => "org.jboss.msc.service.StartException in service jboss.deployment.unit.\"my-target-be-ejb-1.0-SNAPSHOT.jar\".POST_MODULE: WFLYSRV0153: Failed to process phase POST_MODULE of deployment \"my-target-be-ejb-1.0-SNAPSHOT.jar\"
+    Caused by: java.lang.NoClassDefFoundError: Failed to link service/PersonService (Module \"deployment.my-target-be-ejb-1.0-SNAPSHOT.jar:main\" from Service Module Loader): service/PersonServiceLocal"}}
+2016-12-20 20:09:06,364 ERROR [org.jboss.as.server] (management-handler-thread - 20) WFLYSRV0021: Deploy of deployment "my-target-be-ejb-1.0-SNAPSHOT.jar" was rolled back with the following failure message: 
+{"WFLYCTL0080: Failed services" => {"jboss.deployment.unit.\"my-target-be-ejb-1.0-SNAPSHOT.jar\".POST_MODULE" => "org.jboss.msc.service.StartException in service jboss.deployment.unit.\"my-target-be-ejb-1.0-SNAPSHOT.jar\".POST_MODULE: WFLYSRV0153: Failed to process phase POST_MODULE of deployment \"my-target-be-ejb-1.0-SNAPSHOT.jar\"
+    Caused by: java.lang.NoClassDefFoundError: Failed to link service/PersonService (Module \"deployment.my-target-be-ejb-1.0-SNAPSHOT.jar:main\" from Service Module Loader): service/PersonServiceLocal"}}
+2016-12-20 20:09:06,365 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment my-target-be-ejb-1.0-SNAPSHOT.jar (runtime-name: my-target-be-ejb-1.0-SNAPSHOT.jar) in 1ms
+2016-12-20 20:09:06,365 INFO  [org.jboss.as.controller] (management-handler-thread - 20) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service jboss.deployment.unit."my-target-be-ejb-1.0-SNAPSHOT.jar".POST_MODULE
+
+2016-12-20 20:11:06,064 INFO  [org.jboss.as.repository] (management-handler-thread - 24) WFLYDR0001: Content added at location /Users/simon/IdeaProjects/MyTarget/jboss_eap_7.0/standalone/data/content/37/a275653fba7d3d56d468d63dfa78fd53f4c9a6/content
+2016-12-20 20:11:06,068 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment my-target-be-commons-1.0-SNAPSHOT.jar (runtime-name: my-target-be-commons-1.0-SNAPSHOT.jar) in 3ms
+2016-12-20 20:11:06,069 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "my-target-be-commons-1.0-SNAPSHOT.jar" (runtime-name: "my-target-be-commons-1.0-SNAPSHOT.jar")
+2016-12-20 20:11:06,083 INFO  [org.jboss.as.server] (management-handler-thread - 24) WFLYSRV0016: Replaced deployment "my-target-be-commons-1.0-SNAPSHOT.jar" with deployment "my-target-be-commons-1.0-SNAPSHOT.jar"
+2016-12-20 20:11:06,084 INFO  [org.jboss.as.repository] (management-handler-thread - 24) WFLYDR0002: Content removed from location /Users/simon/IdeaProjects/MyTarget/jboss_eap_7.0/standalone/data/content/62/15c31a08dd2be8f35c531c1dc35c6580066a65/content
+2016-12-20 20:11:06,568 INFO  [org.jboss.as.repository] (management-handler-thread - 24) WFLYDR0001: Content added at location /Users/simon/IdeaProjects/MyTarget/jboss_eap_7.0/standalone/data/content/04/4742aa96ff743a22b6f4fea8094c4c0bbd27b3/content
+2016-12-20 20:11:06,574 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment my-target-be-api-1.0-SNAPSHOT.jar (runtime-name: my-target-be-api-1.0-SNAPSHOT.jar) in 5ms
+2016-12-20 20:11:06,575 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "my-target-be-api-1.0-SNAPSHOT.jar" (runtime-name: "my-target-be-api-1.0-SNAPSHOT.jar")
+2016-12-20 20:11:06,591 INFO  [org.jboss.as.server] (management-handler-thread - 24) WFLYSRV0016: Replaced deployment "my-target-be-api-1.0-SNAPSHOT.jar" with deployment "my-target-be-api-1.0-SNAPSHOT.jar"
+2016-12-20 20:11:06,591 INFO  [org.jboss.as.repository] (management-handler-thread - 24) WFLYDR0002: Content removed from location /Users/simon/IdeaProjects/MyTarget/jboss_eap_7.0/standalone/data/content/84/8e0397052bf78e36f89808010558eeede0ec61/content
+2016-12-20 20:11:06,996 INFO  [org.jboss.as.repository] (management-handler-thread - 24) WFLYDR0001: Content added at location /Users/simon/IdeaProjects/MyTarget/jboss_eap_7.0/standalone/data/content/33/08ce077d62314786ced72e472fa76bc6bec531/content
+2016-12-20 20:11:06,997 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 85) WFLYUT0022: Unregistered web context: /my-target-be-web
+2016-12-20 20:11:07,002 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0010: Stopping weld service for deployment my-target-be-web.war
+2016-12-20 20:11:07,014 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment my-target-be-web.war (runtime-name: my-target-be-web.war) in 17ms
+2016-12-20 20:11:07,015 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "my-target-be-web.war" (runtime-name: "my-target-be-web.war")
+2016-12-20 20:11:07,067 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment my-target-be-web.war
+2016-12-20 20:11:07,088 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0006: Starting Services for CDI deployment: my-target-be-web.war
+2016-12-20 20:11:07,090 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0009: Starting weld service for deployment my-target-be-web.war
+2016-12-20 20:11:07,151 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 89) WFLYUT0021: Registered web context: /my-target-be-web
+2016-12-20 20:11:07,158 INFO  [org.jboss.as.server] (management-handler-thread - 24) WFLYSRV0016: Replaced deployment "my-target-be-web.war" with deployment "my-target-be-web.war"
+2016-12-20 20:11:07,158 INFO  [org.jboss.as.repository] (management-handler-thread - 24) WFLYDR0002: Content removed from location /Users/simon/IdeaProjects/MyTarget/jboss_eap_7.0/standalone/data/content/ad/07df516c573ca15f07979b0fede7359a2c0905/content
+2016-12-20 20:11:08,085 INFO  [org.jboss.as.repository] (management-handler-thread - 24) WFLYDR0001: Content added at location /Users/simon/IdeaProjects/MyTarget/jboss_eap_7.0/standalone/data/content/d5/b6f221f3dd3ead0ff11966708db5f71a7961b1/content
+2016-12-20 20:11:08,089 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0010: Stopping weld service for deployment my-target-be-model-1.0-SNAPSHOT.jar
+2016-12-20 20:11:08,093 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 89) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'my-target-be-model-1.0-SNAPSHOT.jar#myTarget-db'
+2016-12-20 20:11:08,095 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 89) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'my-target-be-model-1.0-SNAPSHOT.jar#myTarget-db'
+2016-12-20 20:11:08,096 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment my-target-be-model-1.0-SNAPSHOT.jar (runtime-name: my-target-be-model-1.0-SNAPSHOT.jar) in 10ms
+2016-12-20 20:11:08,097 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "my-target-be-model-1.0-SNAPSHOT.jar" (runtime-name: "my-target-be-model-1.0-SNAPSHOT.jar")
+2016-12-20 20:11:08,107 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) WFLYJPA0002: Read persistence.xml for myTarget-db
+2016-12-20 20:11:08,114 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment my-target-be-model-1.0-SNAPSHOT.jar
+2016-12-20 20:11:08,116 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0006: Starting Services for CDI deployment: my-target-be-model-1.0-SNAPSHOT.jar
+2016-12-20 20:11:08,119 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0009: Starting weld service for deployment my-target-be-model-1.0-SNAPSHOT.jar
+2016-12-20 20:11:08,123 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 24) WFLYCTL0013: Operation ("full-replace-deployment") failed - address: ([]) - failure description: {"WFLYCTL0180: Services with missing/unavailable dependencies" => [
+    "jboss.persistenceunit.\"my-target-be-model-1.0-SNAPSHOT.jar#myTarget-db\".__FIRST_PHASE__ is missing [jboss.naming.context.java.jboss.datasources.MySqlDS]",
+    "jboss.persistenceunit.\"my-target-be-model-1.0-SNAPSHOT.jar#myTarget-db\" is missing [jboss.naming.context.java.jboss.datasources.MySqlDS]"
+]}
+2016-12-20 20:11:08,126 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment my-target-be-model-1.0-SNAPSHOT.jar (runtime-name: my-target-be-model-1.0-SNAPSHOT.jar) in 2ms
+2016-12-20 20:11:08,126 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 24) WFLYCTL0190: Step handler org.jboss.as.server.deployment.DeploymentHandlerUtil$4@191fc34f for operation {"operation" => "full-replace-deployment","address" => [],"name" => "my-target-be-model-1.0-SNAPSHOT.jar","content" => [{"input-stream-index" => 0}],"enabled" => true,"operation-headers" => {"caller-type" => "user","access-mechanism" => "NATIVE"},"runtime-name" => undefined,"persistent" => true,"owner" => undefined} at address [] failed handling operation rollback -- java.util.NoSuchElementException: No child 'name' exists: java.util.NoSuchElementException: No child 'name' exists
+	at org.jboss.dmr.ModelValue.requireChild(ModelValue.java:377)
+	at org.jboss.dmr.ObjectModelValue.requireChild(ObjectModelValue.java:299)
+	at org.jboss.dmr.ModelNode.require(ModelNode.java:870)
+	at org.jboss.as.server.deployment.DeploymentHandlerUtil$4$1.handleResult(DeploymentHandlerUtil.java:277)
+	at org.jboss.as.controller.AbstractOperationContext$Step.invokeResultHandler(AbstractOperationContext.java:1384)
+	at org.jboss.as.controller.AbstractOperationContext$Step.handleResult(AbstractOperationContext.java:1366)
+	at org.jboss.as.controller.AbstractOperationContext$Step.finalizeInternal(AbstractOperationContext.java:1328)
+	at org.jboss.as.controller.AbstractOperationContext$Step.finalizeStep(AbstractOperationContext.java:1311)
+	at org.jboss.as.controller.AbstractOperationContext$Step.access$300(AbstractOperationContext.java:1185)
+	at org.jboss.as.controller.AbstractOperationContext.executeResultHandlerPhase(AbstractOperationContext.java:767)
+	at org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:667)
+	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:370)
+	at org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1344)
+	at org.jboss.as.controller.ModelControllerImpl.internalExecute(ModelControllerImpl.java:392)
+	at org.jboss.as.controller.ModelControllerImpl.execute(ModelControllerImpl.java:217)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler.doExecute(ModelControllerClientOperationHandler.java:208)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler.access$300(ModelControllerClientOperationHandler.java:130)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler$1$1.run(ModelControllerClientOperationHandler.java:152)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler$1$1.run(ModelControllerClientOperationHandler.java:148)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.jboss.as.controller.AccessAuditContext.doAs(AccessAuditContext.java:92)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler$1.execute(ModelControllerClientOperationHandler.java:148)
+	at org.jboss.as.protocol.mgmt.AbstractMessageHandler$ManagementRequestContextImpl$1.doExecute(AbstractMessageHandler.java:363)
+	at org.jboss.as.protocol.mgmt.AbstractMessageHandler$AsyncTaskRunner.run(AbstractMessageHandler.java:472)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:320)
+
+2016-12-20 20:11:08,127 INFO  [org.jboss.as.controller] (management-handler-thread - 24) WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.deployment.unit."my-target-be-model-1.0-SNAPSHOT.jar".WeldBootstrapService (missing) dependents: [service jboss.deployment.unit."my-target-be-model-1.0-SNAPSHOT.jar".CdiValidatorFactoryService, service jboss.deployment.unit."my-target-be-model-1.0-SNAPSHOT.jar".WeldStartService] 
+      service jboss.deployment.unit."my-target-be-model-1.0-SNAPSHOT.jar".WeldStartService (missing) dependents: [service jboss.deployment.unit."my-target-be-model-1.0-SNAPSHOT.jar".CdiValidatorFactoryService] 
+      service jboss.deployment.unit."my-target-be-model-1.0-SNAPSHOT.jar".beanmanager (missing) dependents: [service jboss.persistenceunit."my-target-be-model-1.0-SNAPSHOT.jar#myTarget-db"] 
+      service jboss.deployment.unit."my-target-be-model-1.0-SNAPSHOT.jar".jndiDependencyService (missing) dependents: [service jboss.deployment.unit."my-target-be-model-1.0-SNAPSHOT.jar".WeldStartService] 
+      service jboss.naming.context.java.jboss.datasources.MySqlDS (missing) dependents: [service jboss.persistenceunit."my-target-be-model-1.0-SNAPSHOT.jar#myTarget-db".__FIRST_PHASE__, service jboss.persistenceunit."my-target-be-model-1.0-SNAPSHOT.jar#myTarget-db"] 
+      service jboss.persistenceunit."my-target-be-model-1.0-SNAPSHOT.jar#myTarget-db" (missing) dependents: [service jboss.deployment.unit."my-target-be-model-1.0-SNAPSHOT.jar".deploymentCompleteService, service jboss.deployment.unit."my-target-be-model-1.0-SNAPSHOT.jar".WeldStartService] 
+
+2016-12-20 20:11:08,127 INFO  [org.jboss.as.repository] (management-handler-thread - 24) WFLYDR0002: Content removed from location /Users/simon/IdeaProjects/MyTarget/jboss_eap_7.0/standalone/data/content/d5/b6f221f3dd3ead0ff11966708db5f71a7961b1/content
+2016-12-20 20:11:41,085 INFO  [org.jboss.as.repository] (management-handler-thread - 24) WFLYDR0001: Content added at location /Users/simon/IdeaProjects/MyTarget/jboss_eap_7.0/standalone/data/content/eb/2c4d5093ea068aab2c4abe1df25bee863af3c4/content
+2016-12-20 20:11:41,089 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment my-target-be-commons-1.0-SNAPSHOT.jar (runtime-name: my-target-be-commons-1.0-SNAPSHOT.jar) in 2ms
+2016-12-20 20:11:41,089 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "my-target-be-commons-1.0-SNAPSHOT.jar" (runtime-name: "my-target-be-commons-1.0-SNAPSHOT.jar")
+2016-12-20 20:11:41,104 INFO  [org.jboss.as.server] (management-handler-thread - 24) WFLYSRV0016: Replaced deployment "my-target-be-commons-1.0-SNAPSHOT.jar" with deployment "my-target-be-commons-1.0-SNAPSHOT.jar"
+2016-12-20 20:11:41,104 INFO  [org.jboss.as.controller] (management-handler-thread - 24) WFLYCTL0183: Service status report
+WFLYCTL0185:    Newly corrected services:
+      service jboss.deployment.unit."my-target-be-model-1.0-SNAPSHOT.jar".WeldBootstrapService (no longer required)
+      service jboss.deployment.unit."my-target-be-model-1.0-SNAPSHOT.jar".WeldStartService (no longer required)
+      service jboss.deployment.unit."my-target-be-model-1.0-SNAPSHOT.jar".beanmanager (no longer required)
+      service jboss.deployment.unit."my-target-be-model-1.0-SNAPSHOT.jar".jndiDependencyService (no longer required)
+      service jboss.naming.context.java.jboss.datasources.MySqlDS (no longer required)
+      service jboss.persistenceunit."my-target-be-model-1.0-SNAPSHOT.jar#myTarget-db" (no longer required)
+
+2016-12-20 20:11:41,104 INFO  [org.jboss.as.repository] (management-handler-thread - 24) WFLYDR0002: Content removed from location /Users/simon/IdeaProjects/MyTarget/jboss_eap_7.0/standalone/data/content/37/a275653fba7d3d56d468d63dfa78fd53f4c9a6/content
+2016-12-20 20:11:41,580 INFO  [org.jboss.as.repository] (management-handler-thread - 24) WFLYDR0001: Content added at location /Users/simon/IdeaProjects/MyTarget/jboss_eap_7.0/standalone/data/content/4a/28b152759062e12f74d9cab432b5a2a1384153/content
+2016-12-20 20:11:41,584 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment my-target-be-api-1.0-SNAPSHOT.jar (runtime-name: my-target-be-api-1.0-SNAPSHOT.jar) in 3ms
+2016-12-20 20:11:41,585 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "my-target-be-api-1.0-SNAPSHOT.jar" (runtime-name: "my-target-be-api-1.0-SNAPSHOT.jar")
+2016-12-20 20:11:41,603 INFO  [org.jboss.as.server] (management-handler-thread - 24) WFLYSRV0016: Replaced deployment "my-target-be-api-1.0-SNAPSHOT.jar" with deployment "my-target-be-api-1.0-SNAPSHOT.jar"
+2016-12-20 20:11:41,603 INFO  [org.jboss.as.repository] (management-handler-thread - 24) WFLYDR0002: Content removed from location /Users/simon/IdeaProjects/MyTarget/jboss_eap_7.0/standalone/data/content/04/4742aa96ff743a22b6f4fea8094c4c0bbd27b3/content
+2016-12-20 20:11:42,102 INFO  [org.jboss.as.repository] (management-handler-thread - 24) WFLYDR0001: Content added at location /Users/simon/IdeaProjects/MyTarget/jboss_eap_7.0/standalone/data/content/49/27a1b4e7b35576f37cf1b90acf43b7697f3618/content
+2016-12-20 20:11:42,103 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 90) WFLYUT0022: Unregistered web context: /my-target-be-web
+2016-12-20 20:11:42,109 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0010: Stopping weld service for deployment my-target-be-web.war
+2016-12-20 20:11:42,120 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment my-target-be-web.war (runtime-name: my-target-be-web.war) in 16ms
+2016-12-20 20:11:42,120 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "my-target-be-web.war" (runtime-name: "my-target-be-web.war")
+2016-12-20 20:11:42,178 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment my-target-be-web.war
+2016-12-20 20:11:42,198 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0006: Starting Services for CDI deployment: my-target-be-web.war
+2016-12-20 20:11:42,200 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0009: Starting weld service for deployment my-target-be-web.war
+2016-12-20 20:11:42,268 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 91) WFLYUT0021: Registered web context: /my-target-be-web
+2016-12-20 20:11:42,276 INFO  [org.jboss.as.server] (management-handler-thread - 24) WFLYSRV0016: Replaced deployment "my-target-be-web.war" with deployment "my-target-be-web.war"
+2016-12-20 20:11:42,277 INFO  [org.jboss.as.repository] (management-handler-thread - 24) WFLYDR0002: Content removed from location /Users/simon/IdeaProjects/MyTarget/jboss_eap_7.0/standalone/data/content/33/08ce077d62314786ced72e472fa76bc6bec531/content
+2016-12-20 20:11:43,349 INFO  [org.jboss.as.repository] (management-handler-thread - 24) WFLYDR0001: Content added at location /Users/simon/IdeaProjects/MyTarget/jboss_eap_7.0/standalone/data/content/4e/aad88962827841412b69d32a3638c4526e30bd/content
+2016-12-20 20:11:43,350 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "my-target-be-model-1.0-SNAPSHOT.jar" (runtime-name: "my-target-be-model-1.0-SNAPSHOT.jar")
+2016-12-20 20:11:43,361 INFO  [org.jboss.as.jpa] (MSC service thread 1-6) WFLYJPA0002: Read persistence.xml for myTarget-db
+2016-12-20 20:11:43,365 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment my-target-be-model-1.0-SNAPSHOT.jar
+2016-12-20 20:11:43,365 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 91) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'my-target-be-model-1.0-SNAPSHOT.jar#myTarget-db'
+2016-12-20 20:11:43,366 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 91) HHH000204: Processing PersistenceUnitInfo [
+	name: myTarget-db
+	...]
+2016-12-20 20:11:43,369 INFO  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 91) HHH90000001: Found usage of deprecated setting for specifying Scanner [hibernate.ejb.resource_scanner]; use [hibernate.archive.scanner] instead
+2016-12-20 20:11:43,371 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0006: Starting Services for CDI deployment: my-target-be-model-1.0-SNAPSHOT.jar
+2016-12-20 20:11:43,372 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0009: Starting weld service for deployment my-target-be-model-1.0-SNAPSHOT.jar
+2016-12-20 20:11:43,380 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 91) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'my-target-be-model-1.0-SNAPSHOT.jar#myTarget-db'
+2016-12-20 20:11:43,382 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 91) HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-12-20 20:11:43,386 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 91) Envers integration enabled? : true
+2016-12-20 20:11:43,476 INFO  [org.hibernate.tool.hbm2ddl.SchemaValidator] (ServerService Thread Pool -- 91) HHH000229: Running schema validator
+2016-12-20 20:11:43,571 INFO  [org.jboss.as.server] (management-handler-thread - 24) WFLYSRV0016: Replaced deployment "my-target-be-model-1.0-SNAPSHOT.jar" with deployment "my-target-be-model-1.0-SNAPSHOT.jar"
+2016-12-20 20:11:43,571 INFO  [org.jboss.as.repository] (management-handler-thread - 24) WFLYDR0002: Content removed from location /Users/simon/IdeaProjects/MyTarget/jboss_eap_7.0/standalone/data/content/cc/bb1f1a6bba93db644d063045bb2db9514b2c82/content
+2016-12-20 20:11:44,526 INFO  [org.jboss.as.repository] (management-handler-thread - 24) WFLYDR0001: Content added at location /Users/simon/IdeaProjects/MyTarget/jboss_eap_7.0/standalone/data/content/59/77fa1116cfaf7fc0a64f4a7842f9b9632f4efc/content
+2016-12-20 20:11:44,527 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "my-target-be-ejb-1.0-SNAPSHOT.jar" (runtime-name: "my-target-be-ejb-1.0-SNAPSHOT.jar")
+2016-12-20 20:11:44,533 WARN  [org.jboss.modules] (MSC service thread 1-7) Failed to define class service.PersonService in Module "deployment.my-target-be-ejb-1.0-SNAPSHOT.jar:main" from Service Module Loader: java.lang.NoClassDefFoundError: Failed to link service/PersonService (Module "deployment.my-target-be-ejb-1.0-SNAPSHOT.jar:main" from Service Module Loader): service/PersonServiceLocal
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.jboss.modules.ModuleClassLoader.defineClass(ModuleClassLoader.java:446)
+	at org.jboss.modules.ModuleClassLoader.loadClassLocal(ModuleClassLoader.java:274)
+	at org.jboss.modules.ModuleClassLoader$1.loadClassLocal(ModuleClassLoader.java:78)
+	at org.jboss.modules.Module.loadModuleClass(Module.java:605)
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:190)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:363)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:351)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:93)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.jboss.as.ee.utils.ClassLoadingUtils.loadClass(ClassLoadingUtils.java:21)
+	at org.jboss.as.ee.utils.ClassLoadingUtils.loadClass(ClassLoadingUtils.java:14)
+	at org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.processComponentConfig(InterceptorAnnotationProcessor.java:84)
+	at org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.deploy(InterceptorAnnotationProcessor.java:76)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:147)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-12-20 20:11:44,534 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-7) MSC000001: Failed to start service jboss.deployment.unit."my-target-be-ejb-1.0-SNAPSHOT.jar".POST_MODULE: org.jboss.msc.service.StartException in service jboss.deployment.unit."my-target-be-ejb-1.0-SNAPSHOT.jar".POST_MODULE: WFLYSRV0153: Failed to process phase POST_MODULE of deployment "my-target-be-ejb-1.0-SNAPSHOT.jar"
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:154)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NoClassDefFoundError: Failed to link service/PersonService (Module "deployment.my-target-be-ejb-1.0-SNAPSHOT.jar:main" from Service Module Loader): service/PersonServiceLocal
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.jboss.modules.ModuleClassLoader.defineClass(ModuleClassLoader.java:446)
+	at org.jboss.modules.ModuleClassLoader.loadClassLocal(ModuleClassLoader.java:274)
+	at org.jboss.modules.ModuleClassLoader$1.loadClassLocal(ModuleClassLoader.java:78)
+	at org.jboss.modules.Module.loadModuleClass(Module.java:605)
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:190)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:363)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:351)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:93)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.jboss.as.ee.utils.ClassLoadingUtils.loadClass(ClassLoadingUtils.java:21)
+	at org.jboss.as.ee.utils.ClassLoadingUtils.loadClass(ClassLoadingUtils.java:14)
+	at org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.processComponentConfig(InterceptorAnnotationProcessor.java:84)
+	at org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.deploy(InterceptorAnnotationProcessor.java:76)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:147)
+	... 5 more
+
+2016-12-20 20:11:44,534 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 24) WFLYCTL0013: Operation ("add") failed - address: ([("deployment" => "my-target-be-ejb-1.0-SNAPSHOT.jar")]) - failure description: {"WFLYCTL0080: Failed services" => {"jboss.deployment.unit.\"my-target-be-ejb-1.0-SNAPSHOT.jar\".POST_MODULE" => "org.jboss.msc.service.StartException in service jboss.deployment.unit.\"my-target-be-ejb-1.0-SNAPSHOT.jar\".POST_MODULE: WFLYSRV0153: Failed to process phase POST_MODULE of deployment \"my-target-be-ejb-1.0-SNAPSHOT.jar\"
+    Caused by: java.lang.NoClassDefFoundError: Failed to link service/PersonService (Module \"deployment.my-target-be-ejb-1.0-SNAPSHOT.jar:main\" from Service Module Loader): service/PersonServiceLocal"}}
+2016-12-20 20:11:44,534 ERROR [org.jboss.as.server] (management-handler-thread - 24) WFLYSRV0021: Deploy of deployment "my-target-be-ejb-1.0-SNAPSHOT.jar" was rolled back with the following failure message: 
+{"WFLYCTL0080: Failed services" => {"jboss.deployment.unit.\"my-target-be-ejb-1.0-SNAPSHOT.jar\".POST_MODULE" => "org.jboss.msc.service.StartException in service jboss.deployment.unit.\"my-target-be-ejb-1.0-SNAPSHOT.jar\".POST_MODULE: WFLYSRV0153: Failed to process phase POST_MODULE of deployment \"my-target-be-ejb-1.0-SNAPSHOT.jar\"
+    Caused by: java.lang.NoClassDefFoundError: Failed to link service/PersonService (Module \"deployment.my-target-be-ejb-1.0-SNAPSHOT.jar:main\" from Service Module Loader): service/PersonServiceLocal"}}
+2016-12-20 20:11:44,536 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment my-target-be-ejb-1.0-SNAPSHOT.jar (runtime-name: my-target-be-ejb-1.0-SNAPSHOT.jar) in 0ms
+2016-12-20 20:11:44,536 INFO  [org.jboss.as.controller] (management-handler-thread - 24) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service jboss.deployment.unit."my-target-be-ejb-1.0-SNAPSHOT.jar".POST_MODULE
+
+2016-12-20 20:14:44,131 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 59) WFLYDR0009: Content /Users/simon/IdeaProjects/MyTarget/jboss_eap_7.0/standalone/data/content/c8/1c448960198cade497ad0bcc2da6ad91455392 is obsolete and will be removed
+2016-12-20 20:14:44,133 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 59) WFLYDR0002: Content removed from location /Users/simon/IdeaProjects/MyTarget/jboss_eap_7.0/standalone/data/content/c8/1c448960198cade497ad0bcc2da6ad91455392/content
+2016-12-20 20:14:44,133 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 59) WFLYDR0009: Content /Users/simon/IdeaProjects/MyTarget/jboss_eap_7.0/standalone/data/content/72/4d47545c8b0b0e2a23bd723470ce9fc5295d2d is obsolete and will be removed
+2016-12-20 20:14:44,134 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 59) WFLYDR0002: Content removed from location /Users/simon/IdeaProjects/MyTarget/jboss_eap_7.0/standalone/data/content/72/4d47545c8b0b0e2a23bd723470ce9fc5295d2d/content

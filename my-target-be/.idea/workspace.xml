@@ -2,54 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8eaf6ca5-2b60-4fd5-8457-da80eec15f98" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my-target-be-api/src/main/resources/beans.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my-target-be-ejb/src/test/java/PersonServiceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my-target-be-model/src/main/resources/META-INF/beans.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my-target-be-web/src/main/webapp/WEB-INF/beans.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/my-target-be-ejb/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/my-target-be-ejb/target/my-target-be-ejb-1.0-SNAPSHOT.jar" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-api/target/my-target-be-api-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/my-target-be-api/target/my-target-be-api-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-commons/target/my-target-be-commons-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/my-target-be-commons/target/my-target-be-commons-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-ear/target/my-target-be-ear-1.0-SNAPSHOT.ear" afterPath="$PROJECT_DIR$/my-target-be-ear/target/my-target-be-ear-1.0-SNAPSHOT.ear" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-ear/target/my-target-be-ear-1.0-SNAPSHOT/lib/my-target-be-api-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/my-target-be-ear/target/my-target-be-ear-1.0-SNAPSHOT/lib/my-target-be-api-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-ear/target/my-target-be-ear-1.0-SNAPSHOT/lib/my-target-be-commons-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/my-target-be-ear/target/my-target-be-ear-1.0-SNAPSHOT/lib/my-target-be-commons-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-ear/target/my-target-be-ear-1.0-SNAPSHOT/lib/my-target-be-model-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/my-target-be-ear/target/my-target-be-ear-1.0-SNAPSHOT/lib/my-target-be-model-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-ear/target/my-target-be-ear-1.0-SNAPSHOT/my-target-be-ejb-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/my-target-be-ear/target/my-target-be-ear-1.0-SNAPSHOT/my-target-be-ejb-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-ear/target/my-target-be-ear-1.0-SNAPSHOT/my-target-be-web-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/my-target-be-ear/target/my-target-be-ear-1.0-SNAPSHOT/my-target-be-web-1.0-SNAPSHOT.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-ejb/target/classes/service/BaseService.class" afterPath="$PROJECT_DIR$/my-target-be-ejb/target/classes/service/BaseService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-ejb/target/classes/service/PersonService.class" afterPath="$PROJECT_DIR$/my-target-be-ejb/target/classes/service/PersonService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-model/target/classes/dao/BaseDaoImp.class" afterPath="$PROJECT_DIR$/my-target-be-model/target/classes/dao/BaseDaoImp.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-model/target/my-target-be-model-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/my-target-be-model/target/my-target-be-model-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-web/target/classes/controller/PersonController.class" afterPath="$PROJECT_DIR$/my-target-be-web/target/classes/controller/PersonController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-web/target/my-target-be-web.war" afterPath="$PROJECT_DIR$/my-target-be-web/target/my-target-be-web.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-web/target/my-target-be-web/WEB-INF/classes/controller/PersonController.class" afterPath="$PROJECT_DIR$/my-target-be-web/target/my-target-be-web/WEB-INF/classes/controller/PersonController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone.xml" afterPath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v1.xml" afterPath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v10.xml" afterPath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v10.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v11.xml" afterPath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v11.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v2.xml" afterPath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v3.xml" afterPath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v4.xml" afterPath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v5.xml" afterPath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v6.xml" afterPath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v6.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v7.xml" afterPath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v7.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v8.xml" afterPath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v8.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v9.xml" afterPath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v9.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/standalone.boot.xml" afterPath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/standalone.boot.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/standalone.last.xml" afterPath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/standalone.last.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/log/gc.log.0.current" afterPath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/log/gc.log.0.current" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/log/server.log" afterPath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/log/server.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/tmp/startup-marker" afterPath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/tmp/startup-marker" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-api/src/main/java/service/PersonServiceLocal.java" afterPath="$PROJECT_DIR$/my-target-be-api/src/main/java/service/PersonServiceLocal.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-ear/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/my-target-be-ear/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-ejb/my-target-be-ejb.iml" afterPath="$PROJECT_DIR$/my-target-be-ejb/my-target-be-ejb.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-ejb/pom.xml" afterPath="$PROJECT_DIR$/my-target-be-ejb/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-ejb/src/main/java/service/BaseService.java" afterPath="$PROJECT_DIR$/my-target-be-ejb/src/main/java/service/BaseService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-ejb/src/main/java/service/PersonService.java" afterPath="$PROJECT_DIR$/my-target-be-ejb/src/main/java/service/PersonService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-model/src/main/java/dao/BaseDaoImp.java" afterPath="$PROJECT_DIR$/my-target-be-model/src/main/java/dao/BaseDaoImp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-web/src/main/java/controller/PersonController.java" afterPath="$PROJECT_DIR$/my-target-be-web/src/main/java/controller/PersonController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-api/src/main/resources/beans.xml" afterPath="$PROJECT_DIR$/my-target-be-api/src/main/resources/beans.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-ejb/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/my-target-be-ejb/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-model/src/main/resources/META-INF/beans.xml" afterPath="$PROJECT_DIR$/my-target-be-model/src/main/resources/META-INF/beans.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-model/src/main/resources/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/my-target-be-model/src/main/resources/META-INF/persistence.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-model/target/classes/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/my-target-be-model/target/classes/META-INF/persistence.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-web/src/main/webapp/WEB-INF/beans.xml" afterPath="$PROJECT_DIR$/my-target-be-web/src/main/webapp/WEB-INF/beans.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-web/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/my-target-be-web/target/maven-archiver/pom.properties" />
     </list>
     <ignored path="my-target-be.iws" />
@@ -77,28 +45,7 @@
     <favorites_list name="my-target-be" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BaseDaoImp.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/my-target-be-model/src/main/java/dao/BaseDaoImp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="persistence.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-target-be-model/src/main/resources/META-INF/persistence.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -110,6 +57,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Simon &lt;simon.calabrese@goodotcom.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -168,8 +120,8 @@
         <option value="$PROJECT_DIR$/my-target-be-web/pom.xml" />
         <option value="$PROJECT_DIR$/my-target-be-web/src/main/webapp/WEB-INF/beans.xml" />
         <option value="$PROJECT_DIR$/my-target-be-api/src/main/resources/beans.xml" />
-        <option value="$PROJECT_DIR$/my-target-be-model/src/main/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/my-target-be-model/src/main/java/dao/BaseDaoImp.java" />
+        <option value="$PROJECT_DIR$/my-target-be-model/src/main/resources/META-INF/persistence.xml" />
       </list>
     </option>
   </component>
@@ -191,54 +143,6 @@
         <PATH_ELEMENT>
           <option name="myItemId" value="" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="My-Target-Be EAR" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Dependencies" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="My-Target-Be EAR" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="My-Target-Be EAR" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Lifecycle" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="my-target-be" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
       </PATH>
     </treeState>
@@ -324,7 +228,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="my-target-be-model" />
+              <option name="myItemId" value="my-target-be-web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -338,25 +242,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="my-target-be-model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my-target-be" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my-target-be" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my-target-be-model" />
+              <option name="myItemId" value="my-target-be-web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -368,11 +254,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="META-INF" />
+              <option name="myItemId" value="webapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -386,7 +268,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="my-target-be-model" />
+              <option name="myItemId" value="my-target-be-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my-target-be" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my-target-be" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my-target-be-web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -836,7 +748,14 @@
       <option name="project" value="LOCAL" />
       <updated>1482174523059</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fix persistence unit">
+      <created>1482253726626</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1482253726626</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -906,7 +825,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update version" />
-    <option name="LAST_COMMIT_MESSAGE" value="update version" />
+    <MESSAGE value="fix persistence unit" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix persistence unit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -927,13 +847,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/my-target-be-model/src/main/java/entity/PaymentType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="55" column="44" selection-start-line="55" selection-start-column="44" selection-end-line="55" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-target-be-model/src/main/java/entity/PersonPostation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -1293,10 +1206,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/my-target-be-web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/my-target-be-model/src/main/resources/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="39" />
+        <state relative-caret-position="135">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
           <folding />
         </state>
       </provider>
