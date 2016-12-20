@@ -54,13 +54,19 @@
             <artifactId>javax.inject</artifactId>
             <version>2.5.0-b30</version>
         </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
             <plugin>
                 <artifactId>maven-ejb-plugin</artifactId>
                 <configuration>
-                    <ejbVersion>3.1</ejbVersion>
+                    <ejbVersion>3.2</ejbVersion>
                 </configuration>
             </plugin>
         </plugins>

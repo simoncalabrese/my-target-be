@@ -3,6 +3,8 @@ package service;
 import dto.PersonDto;
 
 import javax.ejb.Local;
+import javax.enterprise.context.ApplicationScoped;
+import javax.inject.Named;
 import java.util.Optional;
 
 /**

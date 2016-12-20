@@ -426,23 +426,14 @@
     </socket-binding-group>
 
     <deployments>
-        <deployment name="my-target-be-ejb-1.0-SNAPSHOT.jar" runtime-name="my-target-be-ejb-1.0-SNAPSHOT.jar">
-            <content sha1="08d7a6f4bf526bf4e311e15ac67613c9eaf26e99"/>
-        </deployment>
-        <deployment name="my-target-be-ear-1.0-SNAPSHOT.ear" runtime-name="my-target-be-ear-1.0-SNAPSHOT.ear">
-            <content sha1="1d94b0487acb9725bfac0bdf9c61d89b6bee059e"/>
-        </deployment>
-        <deployment name="my-target-be-model-1.0-SNAPSHOT.jar" runtime-name="my-target-be-model-1.0-SNAPSHOT.jar">
-            <content sha1="bf813b807971a0ff7845550ea591a06a247da609"/>
-        </deployment>
         <deployment name="my-target-be-commons-1.0-SNAPSHOT.jar" runtime-name="my-target-be-commons-1.0-SNAPSHOT.jar">
-            <content sha1="a8f0cb9a05c5fb7a36a76629159455e6c0a80cba"/>
+            <content sha1="066ca4018f5341bf349bba5ed4caaeab4bd87c2d"/>
         </deployment>
         <deployment name="my-target-be-api-1.0-SNAPSHOT.jar" runtime-name="my-target-be-api-1.0-SNAPSHOT.jar">
-            <content sha1="f44fb086cf8c787bb0f0541243abadfa84c1f68e"/>
+            <content sha1="7cb2820bec63a8541348ec95f26642805cf977cf"/>
         </deployment>
         <deployment name="my-target-be-web.war" runtime-name="my-target-be-web.war">
-            <content sha1="51052f9f7e29eef2b35e7b9b0dd2477a5a2544d5"/>
+            <content sha1="c0eb49f5febda37ae1c4e5e9c8e6b7fbabccdde5"/>
         </deployment>
     </deployments>
 </server>

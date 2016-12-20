@@ -16,7 +16,8 @@ import java.util.function.*;
  * Created by simon on 15/12/16.
  */
 public class BaseDaoImp<E extends IEntity> implements BaseDao<E>, Serializable {
-    @PersistenceContext(unitName = "my-target-be-model")
+
+    @PersistenceContext(unitName = "myTarget-db")
     private static EntityManager entityManager;
 
     @Override

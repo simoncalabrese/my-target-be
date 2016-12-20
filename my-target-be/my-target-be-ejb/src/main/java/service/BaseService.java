@@ -11,7 +11,9 @@ import java.util.function.Function;
  * Created by simon on 18/12/16.
  */
 @ExcludeDefaultInterceptors
-public class BaseService<T extends BaseDao> {
+public abstract class BaseService<T extends BaseDao> {
+
+    protected abstract T getDao();
 
     public <I, O> O converter(final I input, final Function<I, O> converter) {
         return converter.apply(input);
