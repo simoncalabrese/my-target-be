@@ -4,19 +4,48 @@
     <list default="true" id="8eaf6ca5-2b60-4fd5-8457-da80eec15f98" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-api/target/my-target-be-api-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/my-target-be-api/target/my-target-be-api-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-commons/target/my-target-be-commons-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/my-target-be-commons/target/my-target-be-commons-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-model/target/classes/dao/BaseDaoImp.class" afterPath="$PROJECT_DIR$/my-target-be-model/target/classes/dao/BaseDaoImp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-ear/target/my-target-be-ear-1.0-SNAPSHOT.ear" afterPath="$PROJECT_DIR$/my-target-be-ear/target/my-target-be-ear-1.0-SNAPSHOT.ear" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-ear/target/my-target-be-ear-1.0-SNAPSHOT/lib/my-target-be-api-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/my-target-be-ear/target/my-target-be-ear-1.0-SNAPSHOT/lib/my-target-be-api-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-ear/target/my-target-be-ear-1.0-SNAPSHOT/lib/my-target-be-commons-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/my-target-be-ear/target/my-target-be-ear-1.0-SNAPSHOT/lib/my-target-be-commons-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-ear/target/my-target-be-ear-1.0-SNAPSHOT/lib/my-target-be-model-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/my-target-be-ear/target/my-target-be-ear-1.0-SNAPSHOT/lib/my-target-be-model-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-ear/target/my-target-be-ear-1.0-SNAPSHOT/my-target-be-ejb-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/my-target-be-ear/target/my-target-be-ear-1.0-SNAPSHOT/my-target-be-ejb-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-ear/target/my-target-be-ear-1.0-SNAPSHOT/my-target-be-web-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/my-target-be-ear/target/my-target-be-ear-1.0-SNAPSHOT/my-target-be-web-1.0-SNAPSHOT.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-ejb/target/classes/service/PersonService.class" afterPath="$PROJECT_DIR$/my-target-be-ejb/target/classes/service/PersonService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-model/target/my-target-be-model-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/my-target-be-model/target/my-target-be-model-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-web/target/classes/controller/PersonController.class" afterPath="$PROJECT_DIR$/my-target-be-web/target/classes/controller/PersonController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-web/target/my-target-be-web.war" afterPath="$PROJECT_DIR$/my-target-be-web/target/my-target-be-web.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-web/target/my-target-be-web/WEB-INF/classes/controller/PersonController.class" afterPath="$PROJECT_DIR$/my-target-be-web/target/my-target-be-web/WEB-INF/classes/controller/PersonController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone.xml" afterPath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v1.xml" afterPath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v10.xml" afterPath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v10.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v11.xml" afterPath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v11.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v2.xml" afterPath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v3.xml" afterPath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v4.xml" afterPath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v5.xml" afterPath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v6.xml" afterPath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v6.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v7.xml" afterPath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v7.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v8.xml" afterPath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v8.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v9.xml" afterPath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/current/standalone.v9.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/standalone.boot.xml" afterPath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/standalone.boot.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/standalone.last.xml" afterPath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/configuration/standalone_xml_history/standalone.last.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/log/gc.log.0.current" afterPath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/log/gc.log.0.current" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/log/server.log" afterPath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/log/server.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/tmp/startup-marker" afterPath="$PROJECT_DIR$/../jboss_eap_7.0/standalone/tmp/startup-marker" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-api/my-target-be-api.iml" afterPath="$PROJECT_DIR$/my-target-be-api/my-target-be-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-api/pom.xml" afterPath="$PROJECT_DIR$/my-target-be-api/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-api/src/main/resources/beans.xml" afterPath="$PROJECT_DIR$/my-target-be-api/src/main/resources/beans.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-ejb/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/my-target-be-ejb/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-commons/pom.xml" afterPath="$PROJECT_DIR$/my-target-be-commons/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-ear/my-target-be-ear.iml" afterPath="$PROJECT_DIR$/my-target-be-ear/my-target-be-ear.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-ear/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/my-target-be-ear/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-ejb/my-target-be-ejb.iml" afterPath="$PROJECT_DIR$/my-target-be-ejb/my-target-be-ejb.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-ejb/pom.xml" afterPath="$PROJECT_DIR$/my-target-be-ejb/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-ejb/src/main/java/service/PersonService.java" afterPath="$PROJECT_DIR$/my-target-be-ejb/src/main/java/service/PersonService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-model/pom.xml" afterPath="$PROJECT_DIR$/my-target-be-model/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-model/src/main/resources/META-INF/beans.xml" afterPath="$PROJECT_DIR$/my-target-be-model/src/main/resources/META-INF/beans.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-model/src/main/resources/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/my-target-be-model/src/main/resources/META-INF/persistence.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-model/target/classes/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/my-target-be-model/target/classes/META-INF/persistence.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-web/pom.xml" afterPath="$PROJECT_DIR$/my-target-be-web/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-web/src/main/java/controller/PersonController.java" afterPath="$PROJECT_DIR$/my-target-be-web/src/main/java/controller/PersonController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-web/src/main/webapp/WEB-INF/beans.xml" afterPath="$PROJECT_DIR$/my-target-be-web/src/main/webapp/WEB-INF/beans.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-target-be-web/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/my-target-be-web/target/maven-archiver/pom.properties" />
     </list>
@@ -45,7 +74,48 @@
     <favorites_list name="my-target-be" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="74">
+              <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-target-be-ear/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="54" column="21" selection-start-line="47" selection-start-column="12" selection-end-line="54" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-target-be-model/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-target-be-web/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="329">
+              <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -80,7 +150,6 @@
         <option value="$PROJECT_DIR$/my-target-be-web/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/my-target-be-web/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/my-target-be-model/src/main/java/entity/IEntity.java" />
-        <option value="$PROJECT_DIR$/my-target-be-commons/pom.xml" />
         <option value="$PROJECT_DIR$/my-target-be-model/src/main/java/entity/Role.java" />
         <option value="$PROJECT_DIR$/my-target-be-ejb/src/main/java/inject.java" />
         <option value="$PROJECT_DIR$/my-target-be-model/src/main/java/entity/Structure.java" />
@@ -91,8 +160,6 @@
         <option value="$PROJECT_DIR$/my-target-be-model/src/main/java/entity/Promotion.java" />
         <option value="$PROJECT_DIR$/my-target-be-model/src/main/java/entity/Target.java" />
         <option value="$PROJECT_DIR$/my-target-be-model/src/main/java/dao/Pagination.java" />
-        <option value="$PROJECT_DIR$/my-target-be-ear/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/my-target-be-api/src/main/java/PersonServiceLocal.java" />
         <option value="$PROJECT_DIR$/my-target-be-ejb/src/main/java/PersonService.java" />
         <option value="$PROJECT_DIR$/my-target-be-api/src/main/java/dto/RoleDto.java" />
@@ -104,8 +171,6 @@
         <option value="$PROJECT_DIR$/my-target-be-ejb/src/main/java/converter/PersonConverter.java" />
         <option value="$PROJECT_DIR$/my-target-be-ejb/src/main/java/annotation/DefaultInterceptor.java" />
         <option value="$PROJECT_DIR$/my-target-be-commons/src/main/java/exceptions/BeException.java" />
-        <option value="$PROJECT_DIR$/my-target-be-model/pom.xml" />
-        <option value="$PROJECT_DIR$/my-target-be-api/pom.xml" />
         <option value="$PROJECT_DIR$/my-target-be-model/src/main/java/dao/BaseDao.java" />
         <option value="$PROJECT_DIR$/my-target-be-model/src/main/java/dao/PersonDao.java" />
         <option value="$PROJECT_DIR$/my-target-be-api/src/main/java/annotation/DefaultInterceptor.java" />
@@ -113,15 +178,20 @@
         <option value="$PROJECT_DIR$/my-target-be-ejb/src/main/resources/beans.xml" />
         <option value="$PROJECT_DIR$/my-target-be-ejb/src/main/java/service/BaseService.java" />
         <option value="$PROJECT_DIR$/my-target-be-api/src/main/java/service/PersonServiceLocal.java" />
-        <option value="$PROJECT_DIR$/my-target-be-web/src/main/java/controller/PersonController.java" />
-        <option value="$PROJECT_DIR$/my-target-be-ejb/pom.xml" />
-        <option value="$PROJECT_DIR$/my-target-be-ejb/src/main/java/service/PersonService.java" />
         <option value="$PROJECT_DIR$/my-target-be-ejb/src/test/java/PersonServiceTest.java" />
-        <option value="$PROJECT_DIR$/my-target-be-web/pom.xml" />
         <option value="$PROJECT_DIR$/my-target-be-web/src/main/webapp/WEB-INF/beans.xml" />
         <option value="$PROJECT_DIR$/my-target-be-api/src/main/resources/beans.xml" />
         <option value="$PROJECT_DIR$/my-target-be-model/src/main/java/dao/BaseDaoImp.java" />
         <option value="$PROJECT_DIR$/my-target-be-model/src/main/resources/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/my-target-be-ejb/src/main/java/service/PersonService.java" />
+        <option value="$PROJECT_DIR$/my-target-be-web/src/main/java/controller/PersonController.java" />
+        <option value="$PROJECT_DIR$/my-target-be-ear/pom.xml" />
+        <option value="$PROJECT_DIR$/my-target-be-commons/pom.xml" />
+        <option value="$PROJECT_DIR$/my-target-be-api/pom.xml" />
+        <option value="$PROJECT_DIR$/my-target-be-ejb/pom.xml" />
+        <option value="$PROJECT_DIR$/my-target-be-model/pom.xml" />
+        <option value="$PROJECT_DIR$/my-target-be-web/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -198,8 +268,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -242,19 +313,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="my-target-be-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
+              <option name="myItemId" value="my-target-be-model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -268,23 +327,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="my-target-be-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemId" value="my-target-be-ejb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -298,21 +341,40 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="my-target-be-web" />
+              <option name="myItemId" value="my-target-be-ear" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my-target-be" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my-target-be" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="my-target-be-commons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my-target-be" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my-target-be" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="my-target-be-api" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -755,7 +817,14 @@
       <option name="project" value="LOCAL" />
       <updated>1482253726626</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fix beans">
+      <created>1482261609412</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1482261609412</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -770,17 +839,18 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28731343" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28755364" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3397711" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21890548" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Graph Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45149255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Graph Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -790,6 +860,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28731343" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -826,14 +897,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update version" />
     <MESSAGE value="fix persistence unit" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix persistence unit" />
+    <MESSAGE value="fix beans" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix beans" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/my-target-be-ejb/src/main/java/service/PersonService.java</url>
-          <line>29</line>
+          <line>32</line>
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
@@ -964,9 +1036,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -995,11 +1064,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#865#866#0" expanded="false" />
-            <element signature="e#929#930#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1018,29 +1082,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my-target-be-commons/src/main/java/exceptions/BeException.java" />
-    <entry file="file://$PROJECT_DIR$/my-target-be-commons/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-target-be-model/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-target-be-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/hk2/external/javax.inject/2.5.0-b30/javax.inject-2.5.0-b30.jar!/javax/inject/Named.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1052,7 +1093,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1060,9 +1100,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1084,7 +1121,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="6" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1092,9 +1128,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1102,7 +1135,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1110,59 +1142,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-target-be-web/src/main/java/controller/PersonController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-375">
-          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-target-be-ejb/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="62" column="19" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-target-be-ejb/src/main/java/service/PersonService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-target-be-api/src/main/java/service/PersonServiceLocal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-target-be-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1170,7 +1149,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-30">
           <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1178,7 +1156,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1186,15 +1163,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-target-be-ear/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1202,7 +1170,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1210,7 +1177,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1218,7 +1184,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1226,6 +1191,88 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-target-be-ejb/src/main/java/service/PersonService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="73" selection-start-line="19" selection-start-column="73" selection-end-line="19" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-target-be-api/src/main/java/service/PersonServiceLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-target-be-web/src/main/java/controller/PersonController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-target-be-commons/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="26" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-target-be-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="60" column="12" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-target-be-ejb/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="74" column="16" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-target-be-model/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-target-be-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-target-be-ear/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="54" column="21" selection-start-line="47" selection-start-column="12" selection-end-line="54" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
           <folding />
         </state>
       </provider>

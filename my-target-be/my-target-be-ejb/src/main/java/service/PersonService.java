@@ -1,18 +1,21 @@
 package service;
 
-import annotation.DefaultInterceptor;
 import converter.PersonConverter;
 import dao.PersonDao;
 import dto.PersonDto;
 
-import javax.ejb.*;
+import javax.ejb.EJB;
+import javax.ejb.Stateless;
+import javax.ejb.TransactionAttribute;
+import javax.ejb.TransactionAttributeType;
 import javax.inject.Inject;
 import java.util.Optional;
 
 /**
  * Created by simon on 18/12/16.
  */
-@Stateless(name = "PersonService", mappedName = "PersonService")
+@EJB(name = "PersonService",beanInterface = PersonServiceLocal.class)
+@Stateless
 @TransactionAttribute(TransactionAttributeType.REQUIRED)
 public class PersonService extends BaseService<PersonDao> implements PersonServiceLocal {
 

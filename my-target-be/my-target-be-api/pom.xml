@@ -15,11 +15,6 @@
 
     <dependencies>
         <dependency>
-            <groupId>my-target-be</groupId>
-            <artifactId>my-target-be-commons</artifactId>
-            <scope>scope</scope>
-        </dependency>
-        <dependency>
             <groupId>org.jboss.spec.javax.ejb</groupId>
             <artifactId>jboss-ejb-api_3.1_spec</artifactId>
             <version>1.0.2.Final</version>
@@ -52,4 +47,16 @@
         </dependency>
     </dependencies>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.wildfly.plugins</groupId>
+                <artifactId>wildfly-maven-plugin</artifactId>
+                <version>1.0.2.Final</version>
+                <configuration>
+                    <skip>true</skip>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>

@@ -1,6 +1,5 @@
 package controller;
 
-import annotation.DefaultInterceptor;
 import dto.PersonDto;
 import service.PersonServiceLocal;
 
