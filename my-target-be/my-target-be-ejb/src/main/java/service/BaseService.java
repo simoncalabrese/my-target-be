@@ -5,6 +5,7 @@ import dao.BaseDao;
 
 import javax.interceptor.ExcludeDefaultInterceptors;
 import java.util.Collection;
+import java.util.List;
 import java.util.function.Function;
 
 /**
@@ -19,7 +20,7 @@ public abstract class BaseService<T extends BaseDao> {
         return converter.apply(input);
     }
 
-    public <I, O> Collection<O> collectionConverter(Collection<I> input, SuperConverter<I, O> converter) {
+    public <I, O> List<O> collectionConverter(List<I> input, SuperConverter<I, O> converter) {
         return converter.applyToList(input);
     }
 }

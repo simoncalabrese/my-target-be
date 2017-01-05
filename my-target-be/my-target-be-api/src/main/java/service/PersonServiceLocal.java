@@ -5,6 +5,7 @@ import dto.PersonDto;
 import javax.ejb.Local;
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Named;
+import java.util.List;
 import java.util.Optional;
 
 /**
@@ -13,4 +14,5 @@ import java.util.Optional;
 @Local
 public interface PersonServiceLocal {
     PersonDto getPersonByCod(final Optional<String> cod);
+    List<PersonDto> getPersonByCod();
 }

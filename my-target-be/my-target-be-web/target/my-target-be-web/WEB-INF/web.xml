@@ -2,28 +2,8 @@
  "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
  "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
-<web-app>
-  <security-constraint>
-    <display-name>All rest api</display-name>
-    <web-resource-collection>
-      <web-resource-name>Rest Api</web-resource-name>
-      <url-pattern>/rest/*</url-pattern>
-    </web-resource-collection>
-    <auth-constraint>
-      <role-name>*</role-name>
-    </auth-constraint>
-    <user-data-constraint>
-      <transport-guarantee>NONE</transport-guarantee>
-    </user-data-constraint>
-  </security-constraint>
-  <login-config>
-    <auth-method>FORM</auth-method>
-    <form-login-config>
-      <form-login-page>/auth</form-login-page>
-      <form-error-page>/auth?action=LOGINERROR</form-error-page>
-    </form-login-config>
-  </login-config>
-  <security-role>
-    <role-name>*</role-name>
-  </security-role>
-</web-app>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+    </web-app>
+

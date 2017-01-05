@@ -6,6 +6,7 @@ import entity.Person_;
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Root;
+import java.util.List;
 
 public class PersonDao extends BaseDaoImp<Person> {
 
@@ -20,6 +21,14 @@ public class PersonDao extends BaseDaoImp<Person> {
                         cb.equal(root.get(Person_.pIva), codForSearch)
                 ));
         return getSingleResult(query);
+    }
+
+    public List<Person> getPersons(){
+        CriteriaBuilder cb = getCriteriaBuilder();
+        CriteriaQuery<Person> query = cb.createQuery(Person.class);
+        Root<Person> root = query.from(Person.class);
+        query.select(root);
+        return getResultList(query);
     }
 
 }

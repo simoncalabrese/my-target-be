@@ -426,14 +426,8 @@
     </socket-binding-group>
 
     <deployments>
-        <deployment name="my-target-be-api-1.0-SNAPSHOT.jar" runtime-name="my-target-be-api-1.0-SNAPSHOT.jar">
-            <content sha1="7cb2820bec63a8541348ec95f26642805cf977cf"/>
-        </deployment>
         <deployment name="my-target-be-web.war" runtime-name="my-target-be-web.war">
-            <content sha1="c0eb49f5febda37ae1c4e5e9c8e6b7fbabccdde5"/>
-        </deployment>
-        <deployment name="my-target-be-commons-1.0-SNAPSHOT.jar" runtime-name="my-target-be-commons-1.0-SNAPSHOT.jar">
-            <content sha1="d22f0d95dd0d532909f878389c3e72f571c9eb4e"/>
+            <content sha1="08aed437aef4fcbbec05ee3b77876f02acd904da"/>
         </deployment>
     </deployments>
 </server>

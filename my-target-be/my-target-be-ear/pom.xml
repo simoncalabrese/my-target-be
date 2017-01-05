@@ -43,6 +43,7 @@
                             <contextRoot>/my-target-be/</contextRoot>
                         </webModule>
                     </modules>
+                    <fileNameMapping>no-version</fileNameMapping>
                 </configuration>
             </plugin>
             <plugin>

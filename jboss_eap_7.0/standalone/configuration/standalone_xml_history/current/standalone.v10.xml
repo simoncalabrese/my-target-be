@@ -424,16 +424,4 @@
             <remote-destination host="localhost" port="25"/>
         </outbound-socket-binding>
     </socket-binding-group>
-
-    <deployments>
-        <deployment name="my-target-be-web.war" runtime-name="my-target-be-web.war">
-            <content sha1="c0eb49f5febda37ae1c4e5e9c8e6b7fbabccdde5"/>
-        </deployment>
-        <deployment name="my-target-be-commons-1.0-SNAPSHOT.jar" runtime-name="my-target-be-commons-1.0-SNAPSHOT.jar">
-            <content sha1="d22f0d95dd0d532909f878389c3e72f571c9eb4e"/>
-        </deployment>
-        <deployment name="my-target-be-api-1.0-SNAPSHOT.jar" runtime-name="my-target-be-api-1.0-SNAPSHOT.jar">
-            <content sha1="003bd15dca6d068d3dd0f68998295724d9cc29e1"/>
-        </deployment>
-    </deployments>
 </server>

@@ -9,6 +9,7 @@ import javax.ejb.Stateless;
 import javax.ejb.TransactionAttribute;
 import javax.ejb.TransactionAttributeType;
 import javax.inject.Inject;
+import java.util.List;
 import java.util.Optional;
 
 /**
@@ -31,5 +32,10 @@ public class PersonService extends BaseService<PersonDao> implements PersonServi
     @Override
     public PersonDto getPersonByCod(final Optional<String> cod) {
         return converter(getDao().getPersonByCForPi((cod.orElse("")).toUpperCase()), PersonConverter.toPersonDto);
+    }
+
+    @Override
+    public List<PersonDto> getPersonByCod() {
+        return PersonConverter.toPersonDto.applyToList(getDao().getPersons());
     }
 }
